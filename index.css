@@ -2,7 +2,7 @@ label {
     font-family: 'Raleway', sans-serif;
     text-weigth: bold;
     font-size: 105%;
-    text-shadow: 2px 2px 8px #A9A9A9;
+
 }
 
 .legend {
@@ -18,9 +18,9 @@ input, select, textarea {
   border:0;
   outline: none;
   width: 80%;
-  box-shadow:0 0 15px 10px rgba(0,0,0,0.06);
+
   resize: none;
-  border-radius:10px;
+
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
@@ -38,9 +38,9 @@ input, select, textarea {
   margin:4px 0;
   border:0;
   outline: none;
-  box-shadow:0 0 15px 10px rgba(0,0,0,0.06);
+
   resize: none;
-  border-radius:10px;
+
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
     width: 75%;
@@ -68,6 +68,7 @@ table {
     font-family:'Raleway',sans-serif;
     font-size: 15px;
     color:#000000;
+    outline: none;
     text-align:center;
     text-shadow: 2px 2px 8px #A9A9A9;
     transition: all 0.2s;
@@ -77,6 +78,7 @@ table {
 .seleccion:hover{
     color:#ffffff;
     transition: all 0.2s;
+    outline: none;
     border:0.1em solid rgba(49, 130, 187,1);
     background-color:rgba(49, 130, 187,1);
 }
@@ -97,6 +99,7 @@ input[type=submit], input[type=reset] {
     border:0.02em solid #b6b6b6;
     margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
+    outline: none;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Raleway',sans-serif;
@@ -113,6 +116,7 @@ input[type=submit]:hover{
     color:#ffffff;
     border:0.1em solid rgba(49, 130, 187,1);
     transition: all 0.2s;
+    outline: none;
     background-color: rgba(49, 130, 187,1);
 }
 @media all and (max-width:30em){

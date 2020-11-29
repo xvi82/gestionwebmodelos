@@ -1,0 +1,18 @@
+.btnBusqAvan {margin-top: 10px;padding: 10px 5%;}.btnBusqAvan a{background-clip: padding-box;background-color: #c00226;border: 0 none;border-radius: 2px;color: #fff !important;cursor: pointer;display: inline-block;min-width: 60px;overflow: visible;padding: 7px 28px 6px 28px;text-align: center;text-transform: uppercase;white-space: nowrap; width: auto; text-transform:none !important;}.btnBusqAvan a:hover,.btnBusqAvan a:focus{background-color: #959492;}
+/*Estilos para Banner Convocatorias FC*/
+.mod01 .txtFC {display: table-cell;width: auto;vertical-align: top;padding: 15px;}
+.mod01 .izda .envImgFC {height: 100%;position: relative;display: block;}
+.mod01 .izda .envImgFC img {display: block;position: absolute;left: 15px;top: 15px;}
+
+/*Estilos para contenido editado con Tiny*/
+.bold{font-weight: bold;}
+.italic{font-style: italic;}
+.underline{text-decoration: underline;}
+.strikethrough{text-decoration: line-through;}
+.underline.strikethrough{text-decoration: underline line-through !important;}
+.alignleft{text-align: left;}
+.aligncenter{text-align: center;}
+.alignright{text-align: right;}
+.alignfull{text-align: justify;}
+
+.rojo {color:red!important;}

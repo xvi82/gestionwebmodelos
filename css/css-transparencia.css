@@ -1,0 +1,300 @@
+/* 180809 NOTIFICACIONES-MAPAWEB */
+.divNotWeb {margin: -35px 0 0 0;padding: 0;}
+.divNotWeb .anchoCont {text-align: right;}
+.divNotWeb .anchoCont ul {display: inline-block;margin-bottom: 10px;}
+.divNotWeb .anchoCont ul li {display: inline-block;margin-right: 30px;}
+.divNotWeb .anchoCont ul li a {text-decoration: none; color: #555; font-size: 12px;font-weight: bold;cursor: pointer;}
+.divNotWeb .anchoCont ul li a img {display: block;float:left; margin-right: 5px;padding-top: 0.2em;}
+.divTool {
+	display: none;
+	position: absolute;
+	top: 33px;
+    left: -300px;
+	width: 400px;
+	height: auto;
+	margin: 0 auto;
+	padding: 5px;
+	background: #fff;
+	-webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
+	z-index:300;
+}
+.liTooltip {position: relative;}
+.aTooltip {position: relative;}
+.divTool .flecha-up {
+    width:0px;
+    height:0px;
+    border-left:20px solid transparent; /* izquierda flecha */
+    border-right:20px solid transparent; /* derecha flecha */
+    border-bottom:25px solid #fff; /* base flecha y color*/
+    margin: -12px 0 0 350px;
+    font-size:0px;
+    line-height:0px;
+ }
+.divTool ul {
+	display: block!important;
+	width: 100%;
+	text-align: left;
+	padding: 0 10px 10px 10px;
+}
+.divTool ul li {
+	width: 100%;
+	margin:0;
+	color: #555;
+}
+.divTool ul li .pDate {
+	font-size: 11px;
+    color: #ababab;
+}
+.divTool ul li .pText {
+	color: #777;
+    font-size: 11px;
+}
+.divTool ul li .pText a {
+	text-decoration: none;
+	color: #56ace8;
+}
+.divTool ul li .pText a:hover {
+	text-decoration: none;
+	color: #2c81bd!important;
+}
+/* 180809 NOTIFICACIONES-MAPAWEB */
+#numNot.conNotif{
+    background: url("../images/cgpj-campanabola.png") 5px 20px no-repeat;
+    margin: 0.5em;
+    padding-top: 2em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    padding-left: 2.5em;
+    color:white;
+    font-weight:bold;
+}
+#numNot.sinNotif{
+    background: url("../images/cgpj-campanaoff.png") 0px 20px no-repeat;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2.5em;
+    color:white;
+     font-weight:bold;
+}
+#listaNotificacionesTrans {
+    width: 96%;
+}
+
+@media only screen and (max-width : 1024px) {
+.divTool {
+	display: none;
+	position: absolute;
+	top: 33px;
+    left: -10em;
+	width: 20em;
+	height: auto;
+	margin: 0 auto;
+	padding: 5px;
+	background: #fff;
+	-webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
+	z-index:300;
+}
+}
+/* destacados */
+.noDesc .mod12 .titu {min-height: 2.5em;}
+.noDesc .mod12 .pad1 {padding-top:18px;padding-bottom:0;}
+.noDesc .mod12 .pad2 {padding-top:10px;padding-bottom:8px;}
+
+.desc .mod12 .titu {min-height:3.5em;line-height:0.8;padding-bottom:0px;}
+.desc .mod12 .t1 {line-height:2.3;padding-top:18px;}
+.desc .mod12 .t2 {line-height:1.2;font-size:1.2em;padding-top:11px;padding-bottom:11px;}
+/* fin destacados */
+/* actividades */
+.sectionContainer {
+    position: relative;
+    float: left;
+    width: 44%;
+    height: 99.5%;
+    margin: 0 0 40px 10px;
+    background-color: #f7f7f7;
+    padding: 0 25px 0 25px;
+    border: 1px solid #eaeaea;
+}
+@media only screen and (max-width: 992px) {
+	.sectionContainer{
+        float: none!important;
+        width: 88%!important;
+        margin: 0 auto!important;
+    }
+}
+.lt-ie9 #enlacesTransp {
+    padding-bottom: 22px
+}
+/* fin  actividades */
+
+/* accesos directos */
+.accesosDirectosTrans #accesoDirectorio .img {
+    background-image: url("../images/Servicios-img88x88_directorio.jpg");
+}
+.accesosDirectosTrans #accesoCompatibilidades .img {
+    background-image: url("../images/staticfiles-compatibilidad2-88x88.jpg");
+}
+.accesosDirectosTrans #accesoRepositorioCorrupcion .img {
+    background-image: url("../images/Temas-img88x88_ejudicial.jpg");
+}
+.accesosDirectosTrans #accesoDemarcacion .img {
+    background-image: url("../images/Imagenes-img_demarcacion.png");
+}
+.accesosDirectosTrans #accesoEstimacion .img {
+    background-image: url("../images/staticfiles-estimacionesProcesos.jpg");
+}
+.directoriosTrans {
+    float: left;
+    padding-top: 6px;
+    width: 80%;
+}
+
+/*.directoriosTrans span {
+    padding-right: 5px !important;
+}*/
+
+
+#accesoDirectorio div {
+    margin-top: 6px;
+}
+
+#contenedorMapaReducido {
+    padding-bottom: 250px !important;
+}
+
+#accesoEstimacion .directoriosTrans {
+    padding-top: 0px!important;
+    width: 80%;
+}
+.accesosDirectosTransMod .acceso {
+    margin-bottom: 6px;
+    min-height: 44px;
+    padding-bottom: 6px;
+    padding-left: 19.8276%;
+    padding-top: 11px;
+}
+#sectionTrans h2.titu4 {
+    margin-bottom: 5px;
+}
+.acceso .imgTS {
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 29%;
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+}
+.accesosDirectosTrans .fila {
+margin-right: 8%;
+}
+.accesosDirectosTrans .acceso .img{
+max-width: 8em;
+
+}
+}
+/***Esto va en css pero lo ponemos para que se vea bien mientras se descachea****/
+.bloquecomision h2 a{font-family:Georgia,Serif; font-size: 1.57143em;color:#2c81bd;font-style:italic; display:block;}
+#divLogado.siLogado .bloquecomision h2 a {color: #c00226;}
+.bloquecomision p a:hover{color:#2c81bd}
+#divLogado.siLogado .bloquecomision p a:hover{color:#c00226}
+/***FIN Esto va en css pero lo ponemos para que se vea bien mientras se descachea****/
+.bloquecomision section.anchoCols2{
+	width:40%;
+	padding-left:30px;
+	float: left;
+}
+.bloquecomision section.anchoCols1{
+ 	width:49%;
+ 	text-align:left;
+ 	float: right;
+ 	border-left: solid 1px #fff;
+ 	padding-left: 2%
+}
+@media only screen and (max-width: 480px) {
+    .accesosDirectosTrans article {
+        width: 100%;
+        float: none;
+    }
+    .bloquecomision section{
+        width: 100%;
+        float: none;
+    }
+    .bloquecomision section.anchoCols2{
+        width:100%;
+        padding-left:0;
+        margin-bottom: 1em;
+    }
+    .bloquecomision section.anchoCols1{
+        width:100%;
+        text-align:left
+    }
+
+    .acceso .imgTS {
+        display: none;
+    }
+	.textoCorrido{
+        margin-left:0 !important;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .bloquecomision section.anchoCols2{
+        width:100%;
+        padding-left:0;
+        margin-bottom: 1em;
+    }
+    .bloquecomision section.anchoCols1{
+        width:100%;
+        text-align:left;
+        border-left: 0;
+        padding-top: 1em;
+        border-top: 1px solid #fff;
+        padding-left: 0;
+    }
+    .bloquecomision h2 a{
+        max-width: 80%;
+        padding-left: 3em;
+    }
+}
+/* fin accesos directos */
+/* listado canales TSJ */
+section.bloqueTSJs {
+    background-color: #e5e4e1;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding: 9px;
+    width: 99%;
+}
+.bloqueTSJs h2 {
+	color:#2c81bd;
+    display: block;
+    font-family: Georgia,serif;
+    font-size: 1.26em;
+    font-style: italic;
+     padding-top: 6px;
+}
+
+.bloqueTSJs .anchoCols1 {
+    border-left: 1px solid #fff;
+    float: right;
+    padding-left: 2%;
+    text-align: right;
+}
+.btn1{
+vertical-align: inherit !important;
+}
+.bloqueTSJs .anchoCols2 {
+    float: left;
+}
+.enlaceNegrita {
+	color:#333!important;
+}
+/* fin listado canales */
