@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CGPJ. - 404. P&aacute;gina no encontrada.</title>
+<meta name="HandheldFriendly" content="True">
+<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta content="es" http-equiv="Content-Language"/> 
+	<meta content="Spanish" name="Language"/> 
+	<meta content="C.G.P.J" name="Author"/> 
+	<meta content="@ Copyright © Consejo General del Poder Judicial" name="copyright"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if (IEMobile)]>
+<meta http-equiv="cleartype" content="on">
+<![endif]-->
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="/recursos_web/rwd/js/html5shiv.min.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if (lte IE 8) & (!IEMobile)]>
+<script src="/recursos_web/rwd/js/selectivizr-min.js" type="text/javascript"></script>
+<![endif]-->
+<link href="/recursos_web/rwd/css/pantalla.css" rel="stylesheet" type="text/css" media="print, screen"/>
+<!--[if gte IE 9]>-->
+<link href="/recursos_web/rwd/css/s.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1px)" />
+<!--<![endif]-->
+<link href="/recursos_web/rwd/css/m.css" rel="stylesheet" type="text/css" media="print, screen and (min-width:768px)"/>
+<link href="/recursos_web/rwd/css/l.css" rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" />
+<!--[if (lt IE 9) & (!IEMobile)]>
+<link href="/recursos_web/rwd/css/m.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/recursos_web/rwd/css/l.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/recursos_web/rwd/css/ie.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+<script src="/recursos_web/rwd/js/jquery.min.js" type="text/javascript"></script>
+<script src="/recursos_web/rwd/js/plugins.min.js" type="text/javascript"></script>
+<script src="/recursos_web/rwd/js/layout.min.js" type="text/javascript"></script>
+<link rel="shortcut icon" href="/recursos_web/rwd/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/recursos_web/rwd/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/recursos_web/rwd/apple-touch-icon.png" />
+</head>
+<!--[if IE 7]><body class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><body class="lt-ie9"><![endif]-->
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if !IE]><!-->
+<body>
+<!--<![endif]-->
+<div id="pagina">
+  <div id="divLogado" class="noLogado">
+    <header id="cabeceraPpal" role="banner">
+      <div class="anchoCont">
+        <div id="divLogo"><a id="logo" href="/cgpj/es/Poder_Judicial" accesskey="0" rel="home" title="Ir a la página de inicio"><span>Consejo General del Poder Judicial</span></a> 
+          <!--[if lte IE 9]><span id="logo_imprimir_ie"><img src="/recursos_web/rwd/img/consejo_general_poder_judicial_imprimir.png" alt=""/></span><![endif]--></div>
+      </div>
+      <a id="atjPpal" class="atajo" href="#cuerpo">Acceder directamente al contenido principal</a>
+      <div id="divMenu">
+        <div id="envRecursiva" class="anchoCont">
+          <div id="navRecursiva">
+            <ul>
+              <li class="recurDespliega" id="recurIdioma">
+                <div class="envMov"><a href="#" class="abre"><span class="escMov">Español</span></a>
+                  <div class="desplegable">
+                    <div class="fila">
+                     <ul>
+						  	<li class="activo"><a lang="es" hreflang="es" href="/portal/site/cgpj/menuitem.96dc62a619366a2141a25f82dc432ea0/?lang_choosen_furl=es&amp;vgnextoid=3a20f20408619210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;lang_choosen=es">Español</a></li>
+										<li><a lang="en" hreflang="en" href="/portal/site/cgpj/menuitem.96dc62a619366a2141a25f82dc432ea0/?lang_choosen_furl=es&amp;vgnextoid=3a20f20408619210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;lang_choosen=en">English</a></li>
+										<li><a lang="fr" hreflang="fr" href="/portal/site/cgpj/menuitem.96dc62a619366a2141a25f82dc432ea0/?lang_choosen_furl=es&amp;vgnextoid=3a20f20408619210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;lang_choosen=fr">Français</a></li>
+										<li><a lang="ca" hreflang="ca" href="/portal/site/cgpj/menuitem.96dc62a619366a2141a25f82dc432ea0/?lang_choosen_furl=es&amp;vgnextoid=3a20f20408619210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;lang_choosen=ca">Català</a></li>
+										<li><a lang="eu" hreflang="eu" href="/portal/site/cgpj/menuitem.96dc62a619366a2141a25f82dc432ea0/?lang_choosen_furl=es&amp;vgnextoid=3a20f20408619210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;lang_choosen=eu">Euskara</a></li>
+										<li><a lang="gl" hreflang="gl" href="/portal/site/cgpj/menuitem.96dc62a619366a2141a25f82dc432ea0/?lang_choosen_furl=es&amp;vgnextoid=3a20f20408619210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;lang_choosen=gl">Galego</a></li>
+									</ul>
+                    </div>
+                  </div>
+                  <a href="#" class="cierra"><span>Cerrar</span></a></div>
+              </li>
+		 <li id="recurBusca" class="recurDespliega">
+					<div class="envMov"><a class="abre" href="#"><span class="escMov">Buscar</span></a>
+					  <div class="desplegable">
+						<form autocomplete="off" action="/cgpj/es/Buscadores" id="form_busq_gnral" role="search" method="get" name="buscar">
+						  <div class="fila">
+							<label for="txt_busca_gnral" class="oculto">Buscar:</label>
+							<input type="search" autocomplete="off" name="text" id="srch_gnral" class="ac_input">
+						  </div>
+						  <div class="fila"><span class="btn1">
+							  <input type="submit" value="Buscar" id="smbt_cab_srch_gnral">
+						  </span> </div>
+						  <!--div class="fila">
+							<p class="flecha"><a href="#">Busqueda avanzada</a></p>
+						  </div-->
+						</form>
+					  </div>
+					  <a class="cierra" href="#"><span>Cerrar</span></a></div>
+				  </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="cuerpo" role="main">
+      <nav id="navMigas">
+        <div class="anchoCont">
+          <p>Estás en:</p>
+          <ol>
+            <li><a href="/cgpj/es/Poder_Judicial">Inicio</a></li>
+            <li>Página no encontrada</li>
+          </ol>
+        </div>
+      </nav>
+      <div class="anchoCont">
+        <div id="colPpal" class="ancho1Col">
+          <section class="plantillaInterior1">
+            <header class="cabeceraInterior">
+              <h1 class="titu2">Página no encontrada</h1>
+            </header>
+            <!-- ***********************************************************
+          2014_07_25: inicio    -->
+            <div class="error404 mod">
+              <div class="cont">
+                <div class="ico"><span class="env"><img src="/recursos_web/rwd/img/ico_error.png" alt="Aviso"></span></div>
+                <div class="int">
+                  <p>La página solicitada puede no estar disponible, haber cambiado de dirección (URL) o no existir.<br>
+                    Disculpe las molestias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="enlaces-error mod">
+              <p>Usted puede:</p>
+              <ul>
+                <li>Revisar la dirección escrita en la barra de direcciones de su navegador.</li>
+                <li>Utilizar nuestro <a href="/cgpj/es/Buscadores">buscador</a> para localizar el contenido de su interés.</li>
+                <li>Volver a la página anterior e intentarlo de nuevo.</li>
+                <li>Ir a la <a href="/cgpj/es/Poder_Judicial">página de inicio</a> de poderjudicial.es</li>
+              </ul>
+              <p>¡Gracias por visitar poderjudicial.es!</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div id="saltarACabecera"><a class="atajo2" href="#pagina"><span>Subir al inicio de la página</span></a></div>
+    <footer id="piePpal" role="contentinfo">
+      <div class="anchoCont">
+        <aside id="ulRedes">
+          <ul>
+				  <li>
+				<a target="_blank" href="https://www.facebook.com/pages/CONSEJO-GENERAL-DEL-PODER-JUDICIAL/150426278367459" title="Síguenos en Facebook, en nueva ventana">
+				<img src="/recursos_web/rwd/img/perfil_facebook.png" alt="Síguenos en Facebook, en nueva ventana">
+				<span class="lectores">Abre en nueva ventana</span>
+				</a>
+				</li>
+				<li>
+				<a target="_blank" href="https://twitter.com/PoderJudicialEs" title="Síguenos en Twitter, en nueva ventana">
+				<img src="/recursos_web/rwd/img/perfil_twitter.png" alt="Síguenos en Twitter, en nueva ventana">
+				<span class="lectores">Abre en nueva ventana</span>
+				</a>
+				</li>
+            <!--li><a href="https://www.youtube.com/user/consejogpj" target="_blank"><img src="/recursos_web/rwd/img/perfil_youtube.png" alt="Perfil en Youtube, en nueva ventana"></a></li-->
+          </ul>
+        </aside>
+        <nav id="navLegal">
+          <ul>
+            <li><a href="/cgpj/es/Poder%2DJudicial/Aviso_Legal">Aviso legal</a></li>
+            <li><a href="/cgpj/es/Poder%2DJudicial/Politica%2Dde%2Dprivacidad">Política de privacidad</a></li>
+            <li><a href="/cgpj/es/Servicios/Buzon%2Dde%2Dsugerencias/Buzon%2Dde%2Dsugerencias">Contacto</a></li>
+            <li><a href="/cgpj/es/Poder%2DJudicial/Accesibilidad">Accesibilidad</a></li>
+            <li><a href="/cgpj/es/Poder%2DJudicial/Suscripcion_RSS">RSS</a></li>
+            <li><a href="/cgpj/es/Poder%2DJudicial/Indice%2DA%2DZ">Índice A-Z</a></li>
+            <li><a href="/cgpj/es/Poder%2DJudicial/FAQs"><abbr title="Preguntas frecuentes">Faqs</abbr></a></li>
+          </ul>
+        </nav>
+        <small>Copyright &copy; Consejo General del Poder Judicial</small></div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
