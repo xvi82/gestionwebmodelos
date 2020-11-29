@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*Clear*/
+
+/******************PARRAFO ARTICULO****************************/
+
+.banderas table{border-collapse:collapse;border-spacing:0;font-size:1em;width: 100% !important; /*text-align:justify*/}
+.banderas li {list-style:none; padding:0 0 4px 8px; }
+.banderas img {background: url(../images/cgpj-fnd_img4x4.gif) repeat-x center bottom; padding-bottom:4px; float:left; margin:12px 12px 12px 0; text-align:center; }
+.banderas h3 { color:#232323;font-family:/*"Amasis MT",*/Georgia, "Times New Roman", Times, serif; font-weight: bold; padding:9px 0 0 0; }
+.banderas p.subir { float:right;}
+.directorio{font-size:0.8em !important; text-align:left !important}
+.minAncho {width:30px}
+.minAnchoTel {width:65px}
+.convocatorias {text-align:left !important }
+/********************************/
+/* Eliminado problema salto linea banderas en el cuerpo del articulo*/
+.textoArticulo .banderas img{float:none; margin:0px; text-align:none;padding-bottom:0px; }
+.banderas b {
+    font-weight: normal !important;
+	margin-top: 0.2em;
+    text-indent: 10px;
+}

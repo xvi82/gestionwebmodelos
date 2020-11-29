@@ -1,0 +1,350 @@
+.submenu, .accordion {
+  list-style-type: none;
+}
+.accordion {
+  width: 100%;
+  margin: 5px auto 20px;
+}
+.noLogado .accordion .link.level1 {
+  cursor: pointer;
+  display: block;
+  float: left;
+  margin: 5px auto 10px;
+  border-top: none;
+  padding: 1.92307692% 10px;
+  font-size: 1.14285714em;
+  position: relative;
+  width: 95%;
+  min-height: 20px;
+  background: url(../images/img-mas_menos_acordeon.png) 97% 20px no-repeat;
+  background-color: #e5e4e1;
+  color: black;
+  font-size: 1em;
+
+    transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color;
+  -o-transition-duration: 1s;
+}
+.accordion .link.level2 {
+  cursor: pointer;
+  display: block;
+  float: left;
+  /*margin: 5px auto 10px;*/
+      margin: 1% 3%;
+  border-top: none;
+  padding: 1.92307692% 10px;
+  font-size: 1.14285714em;
+  position: relative;
+  width: 88%;
+  height: 10px;
+  background-color: #e5e4e1;
+  color: #333;
+  font-size: 1em;
+}
+.accordion ul {
+  list-style: none;
+}
+.accordion .link.level2 i {
+  float: right;
+}
+.noLogado .accordion li.open .link.level1 {
+  background: url(../images/img-mas_menos_acordeon.png) 97% -445px no-repeat;
+  background-color: #2c81bd;
+  color: white;
+}
+.accordion li .link.level1 p {
+  display: block;
+  max-width: 70%;
+  margin-left: 60px;
+}
+.accordion li .link.level2 p {
+  max-width: 90%;
+  margin-top: -5px;
+  margin-left: 1em;
+}
+
+/*ESTILO NUEVO EN EL CASO DE QUE SEA UN ENLACE*/
+.accordion li .link.level2 a {
+  max-width: 90%;
+  margin-top: -5px;
+  padding-left: 22px;
+  color: black;
+  display: block;
+  background: url(../images/img-bolo_03.gif) 12px 7px no-repeat;
+}
+/**
+ * Submenu
+ -----------------------------*/
+
+.submenu, .submenu2 {
+  display: none;
+  font-size: 14px;
+  width: 100%;
+}
+.submenu .col {
+  display: block;
+  position: relative;
+  width: 50%;
+  float: left;
+  margin-bottom: 2em;
+}
+.submenu .row {
+  width: 100%;
+  margin-top: 20px;
+}
+.submenu .row .id {
+  color: #2c81bd;
+  font-weight: bold;
+  float: left;
+  width: 20%;
+  background-color: #f6f6f6;
+  border-radius: 30%;
+  text-align: center;
+  margin-right: 5%;
+}
+.submenu .row .apartado {
+  float: left;
+  width: 70%;
+}
+
+
+
+/*CAMBIOS REALIZADOS PARA SUSTITUIR COLORES CUANDO ESTÉ LOGADO*/
+/*Cambio de imagenes desplegables p03*/
+.siLogado .accordion .link.level1 {
+  cursor: pointer;
+  display: block;
+  float: left;
+  margin: 5px auto 10px;
+  border-top: none;
+  padding: 1.92307692% 10px;
+  font-size: 1.14285714em;
+  position: relative;
+  width: 95%;
+  height: 20px;
+  background: url(../images/img-mas_menos_acordeon_rojo.png) 97% 20px no-repeat;
+  background-color: #e5e4e1;
+  color: black;
+  font-size: 1em;
+
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color;
+  -o-transition-duration: 1s;
+}
+.siLogado .accordion li.open .link.level1 {
+  background: url(../images/img-mas_menos_acordeon.png) 97% -445px no-repeat;
+  background-color: #c00026;
+  color: white;
+}
+.siLogado .accordion li .link.level1  > div, 
+.noLogado .accordion li .link.level1  > div{
+  display: block;
+  float: left;
+  margin-top: -10px;
+  height: 40px;
+  width: 40px;
+}
+
+/*###############################noLogado############################################*/
+/*Calendar*/
+.noLogado .accordion li.open .link.level1 .icoCa{
+  background: url(../images/img-icoCalendar.png);
+}
+.noLogado .accordion li .link.level1 .icoCa  {
+  background: url(../images/img-icoCalendarAzul.png);
+}
+/*FeedBack*/
+.noLogado .accordion li .link.level1 .icoFed  {
+  background: url(../images/img-icoFeedbackAzul.png);
+}
+.noLogado .accordion li.open .link.level1 .icoFed{
+  background: url(../images/img-icoFeedback.png);  
+}
+/*rrhh*/
+.noLogado .accordion li .link.level1 .rH  {
+  background: url(../images/img-icoRrhhAzul.png);
+}
+.noLogado .accordion li.open .link.level1 .rH{
+  background: url(../images/img-icoRrhh.png);  
+}
+/*cargo*/
+.noLogado .accordion li .link.level1 .cargo  {
+  background: url(../images/img-icoCargoAzul.png);
+}
+.noLogado .accordion li.open .link.level1 .cargo{
+  background: url(../images/img-icoCargo.png);  
+}
+/*Ticket*/
+.noLogado .accordion li .link.level1 .ticket  {
+  background: url(../images/img-icoTicketAzul.png);
+}
+.noLogado .accordion li.open .link.level1 .ticket{
+  background: url(../images/img-icoTicket.png);  
+}
+/*Data*/
+.noLogado .accordion li .link.level1 .data  {
+  background: url(../images/img-icoDataAzul.png);
+}
+.noLogado .accordion li.open .link.level1 .data{
+  background: url(../images/img-icoData.png);  
+}
+/*International*/
+.noLogado .accordion li .link.level1 .inter  {
+  background: url(../images/img-icoInternacionalAzul.png);
+}
+.noLogado .accordion li.open .link.level1 .inter{
+  background: url(../images/img-icoInternacional.png);  
+}
+/*Wallet*/
+.noLogado .accordion li .link.level1 .wallet  {
+  background: url(../images/img-icoWalletAzul.png);
+}
+.noLogado .accordion li.open .link.level1 .wallet{
+  background: url(../images/img-icoWallet.png);  
+}
+/*Arrow*/
+.noLogado .accordion li .link.level1 .arrow  {
+  background: url(../images/img-icoArrowsAzul.png);
+}
+.noLogado .accordion li.open .link.level1 .arrow{
+  background: url(../images/img-icoArrows.png);  
+}                   
+/*Gafas*/
+.noLogado .accordion li .link.level1 .gafas  {
+  background: url(../images/img-icoGafasAzul.png);
+}
+.noLogado .accordion li.open .link.level1 .gafas{
+  background: url(../images/img-icoGafas.png);  
+} 
+
+
+/*###############################siLogado############################################*/
+/*Calendar*/
+.siLogado .accordion li.open .link.level1 .icoCa{
+  background: url(../images/img-icoCalendar.png);
+}
+.siLogado .accordion li .link.level1 .icoCa  {
+  background: url(../images/img-icoCalendarRojo.png);
+}
+/*FeedBack*/
+.siLogado .accordion li .link.level1 .icoFed  {
+  background: url(../images/img-icoFeedbackRojo.png);
+}
+.siLogado .accordion li.open .link.level1 .icoFed{
+  background: url(../images/img-icoFeedback.png);  
+}
+/*rrhh*/
+.siLogado .accordion li .link.level1 .rH  {
+  background: url(../images/img-icoRrhhRojo.png);
+}
+.siLogado .accordion li.open .link.level1 .rH{
+  background: url(../images/img-icoRrhh.png);  
+}
+/*cargo*/
+.siLogado .accordion li .link.level1 .cargo  {
+  background: url(../images/img-icoCargoRojo.png);
+}
+.siLogado .accordion li.open .link.level1 .cargo{
+  background: url(../images/img-icoCargo.png);  
+}
+/*Ticket*/
+.siLogado .accordion li .link.level1 .ticket  {
+  background: url(../images/img-icoTicketRojo.png);
+}
+.siLogado .accordion li.open .link.level1 .ticket{
+  background: url(../images/img-icoTicket.png);  
+}
+/*Data*/
+.siLogado .accordion li .link.level1 .data  {
+  background: url(../images/img-icoDataRojo.png);
+}
+.siLogado .accordion li.open .link.level1 .data{
+  background: url(../images/img-icoData.png);  
+}
+/*International*/
+.siLogado .accordion li .link.level1 .inter {
+  background: url(../images/img-icoInternacionalRojo.png);
+}
+.siLogado .accordion li.open .link.level1 .inter{
+  background: url(../images/img-icoInternacional.png);  
+}
+/*Wallet*/
+.siLogado .accordion li .link.level1 .wallet  {
+  background: url(../images/img-icoWalletRojo.png);
+}
+.siLogado .accordion li.open .link.level1 .wallet{
+  background: url(../images/img-icoWallet.png);  
+}
+/*Arrow*/
+.siLogado .accordion li .link.level1 .arrow  {
+  background: url(../images/img-icoArrowsrojo.png);
+}
+.siLogado .accordion li.open .link.level1 .arrow{
+  background: url(../images/img-icoArrows.png);  
+}                   
+/*Gafas*/
+.siLogado .accordion li .link.level1 .gafas  {
+  background: url(../images/img-icoGafasRojo.png);
+}
+.siLogado .accordion li.open .link.level1 .gafas{
+  background: url(../images/img-icoGafas.png);  
+} 
+
+
+@media screen and (min-width:1024px){
+  .submenu2 {
+    padding-left: 4em;
+  }
+}
+@media screen and (min-width:800px) and (max-width:1024px) {
+  .accordion {
+    padding-left: 20px;
+  }
+  .accordion .link.level1 {
+    width: 90%;
+  }
+  .accordion .link.level1:hover {
+    background: url(../images/img-mas_menos_acordeon.png) 97% -290px no-repeat;
+    background-color: #2c81bd;
+    color: white;
+  }
+  .accordion li.open .link.level1 {
+    background: url(../images/img-mas_menos_acordeon.png) 97% -445px no-repeat;
+    background-color: #2c81bd;
+    color: white;
+  }
+  .accordion .link.level2 {
+    width: 90%;
+  } 
+  .submenu2 {
+    padding-left: 1em;
+  }
+  
+}
+@media screen and (min-width:500px) and (max-width:1200px) {
+  .accordion {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+   .siLogado .accordion li .link.level1  > div, 
+   .noLogado .accordion li .link.level1  > div{
+       margin-top: 0;
+   }
+}
+@media screen and (max-width:800px) {
+  .accordion .link.level1, .accordion .link.level2 {
+    height: auto;
+  }
+  .accordion li .link.level1 img {
+    margin-top: 0px;
+  }
+}
