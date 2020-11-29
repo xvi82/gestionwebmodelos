@@ -66,6 +66,7 @@ const sentencia = `<p>Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magi
 <p>&nbsp;</p>
 <p><strong>CUARTO.-</strong> Trayendo la realidad descrita en los Hechos Probados a la norma legal citada y la doctrina jur&iacute;dica expresada pueden apreciarse todos los elementos necesarios para la imposici&oacute;n del recargo de prestaciones.</p>
 <p>Y ello por cuanto, valorando el conjunto de circunstancias del caso, este Juzgador debe concluir que&nbsp;<span class="word" title="id: caso">${caso}.</span></p>
+<p>&nbsp;</p>
 <p><strong>QUINTO.- </strong>A tenor de lo dispuesto en el art. 97.4 de la LRJS se debe indicar a las partes procesales si la presente sentencia es firme o no, y en su caso los recursos que contra ella proceden, as&iacute; como las circunstancias de su interposici&oacute;n. En cumplimiento de ello se advierte a las partes que la presente resoluci&oacute;n no es firme y que contra ella puede interponerse recurso de suplicaci&oacute;n con todos los requisitos que en el fallo se se&ntilde;alan, seg&uacute;n se desprende del art. 191.3.g) de la LRJS.</p>
 <p>Vistos los preceptos citados y dem&aacute;s de general y pertinente aplicaci&oacute;n.</p>
 <h4 class="sent">FALLO</h4>

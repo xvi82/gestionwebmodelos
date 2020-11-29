@@ -73,6 +73,7 @@ const sentencia = `<p>Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magi
 <p>Habr&aacute; de tenerse en cuenta en la ponderaci&oacute;n de la gravedad de la falta la peligrosidad de las actividades, n&uacute;mero de trabajadores afectados, actitud o conducta general de la empresa en materia de prevenci&oacute;n, as&iacute; como las instrucciones impartidas por el empresario en orden a la observancia de estas medidas reglamentarias.</p>
 <p>En el caso de autos, tras examinar las circunstancias concurrentes se estima adecuado el porcentaje de <span class="word" title="id: porcentajeadecuado">${porcentajeadecuado}</span>, y ello no solo por la gravedad de las lesiones que se originaron al trabajador a consecuencia del accidente, sino en atención a lo reseñado ut supra.</p>
 <p>Consecuentemente, procede la estimaci&oacute;n parcial de la demanda.</p>
+<p>&nbsp;</p>
 <p><strong>QUINTO.- </strong>A tenor de lo dispuesto en el art. 97.4 de la LRJS se debe indicar a las partes procesales si la presente sentencia es firme o no, y en su caso los recursos que contra ella proceden, as&iacute; como las circunstancias de su interposici&oacute;n. En cumplimiento de ello se advierte a las partes que la presente resoluci&oacute;n no es firme y que contra ella puede interponerse recurso de suplicaci&oacute;n con todos los requisitos que en el fallo se se&ntilde;alan, seg&uacute;n se desprende del art. 191.3.g) de la LRJS.</p>
 <p>Vistos los preceptos citados y dem&aacute;s de general y pertinente aplicaci&oacute;n.</p>
 <h4 class="sent">FALLO</h4>
