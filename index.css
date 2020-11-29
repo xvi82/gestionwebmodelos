@@ -18,9 +18,7 @@ input, select, textarea {
   border:0;
   outline: none;
   width: 80%;
-
   resize: none;
-
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
@@ -31,20 +29,6 @@ input, select, textarea {
 
 #actor, #demandado {
     margin: 5px auto;
-}
-
-#porcentajerecargo, #porcentajeadecuado {
-  padding:9px;
-  margin:4px 0;
-  border:0;
-  outline: none;
-
-  resize: none;
-
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-    width: 75%;
-    height: 50%
 }
 
 select {
