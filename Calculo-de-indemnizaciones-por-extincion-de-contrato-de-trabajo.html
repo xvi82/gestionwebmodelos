@@ -1,0 +1,2312 @@
+<!doctype html>
+<!-- Cambiar aquí el idioma-->
+<html lang="es">
+<head>
+	<meta name="HandheldFriendly" content="True">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--[if (IEMobile)]>
+	<meta http-equiv="cleartype" content="on">
+	<![endif]-->
+	<!--[if (lt IE 9) & (!IEMobile)]>
+	  <script src="/recursos_web/rwd/js/html5shiv.min.js" type="text/javascript"></script>
+	<![endif]-->
+	<!--[if (lt IE 8) & (!IEMobile)]>
+	  <script src="/recursos_web/rwd/js/nwmatcher-1.2.5-min.js" type="text/javascript"></script>
+	<![endif]-->
+	 			<!-- DataLayer -->			<script>			  dataLayer = [{			'tipo': 'item','id': 'a4b0b947c456b610VgnVCM1000006f48ac0aRCRD','usuario': 'Anónimo','language': 'es','pagina': '1','stage': 'dlvr','agrupacion': 'Utilidades-Servicios','dominio': 'publico','codigoProvincia': 'unknow' 			  }];			</script>			<!-- End DataLayer 2 -->			<!-- Google Tag Manager -->			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);			})(window,document,'script','dataLayer','GTM-NTPWS52');</script>			<!-- End Google Tag Manager -->			<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+<meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<title>C.G.P.J					- Cálculo de indemnizaciones por extinción de contrato de trabajo</title>
+<meta content="es" http-equiv="Content-Language"/>
+<meta content="español" name="Language"/>
+<meta content="C.G.P.J" name="Author"/>
+<meta content="@ Copyright © Consejo General del Poder Judicial" name="copyright"/>
+<meta content="Aplicación que calcula el importe de  las indemnizaciónes por extinción de contrato de trabajo en diferentes casos." name="description"/>
+<meta content="all" name="Robots"/>
+<!--Inicio CSS-->
+
+<link href="http://www.poderjudicial.es/recursos_web/rwd/img/iconos/poderjudicial.ico" type="image/x-icon" rel="shortcut icon">
+	<link href="http://www.poderjudicial.es/recursos_web/rwd/css/pantalla.css?v=2.0" rel="stylesheet" type="text/css" media="print, screen"/>
+	<!--link href="/recursos_web/rwd/css/ext.css" rel="stylesheet" type="text/css" media="screen" /-->
+	
+		<!--form builder-->
+	<link href="http://www.poderjudicial.es/recursos_web/rwd/css/cgpj/form.css?v=1.0" rel="stylesheet" type="text/css" media="all" />
+		<link href="http://www.poderjudicial.es/recursos_web/rwd/css/cgpj/cuerpoArticulo.css" rel="stylesheet" type="text/css" media="all" />
+		<!--fin form builder-->
+	<!--[if gte IE 9]><!-->
+	<link href="http://www.poderjudicial.es/recursos_web/rwd/css/s.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1px)"/>
+	<!--<![endif]-->
+
+	<link href="http://www.poderjudicial.es/recursos_web/rwd/css/m.css" rel="stylesheet" type="text/css" media="print, screen and (min-width:768px)"/>
+	<link href="http://www.poderjudicial.es/recursos_web/rwd/css/l.css" rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" />
+	<!--[if (lt IE 9) & (!IEMobile)]>
+	  <link href="/recursos_web/rwd/css/m.css" rel="stylesheet" type="text/css" media="print, screen"/>
+	  <link href="/recursos_web/rwd/css/l.css" rel="stylesheet" type="text/css" media="screen" />
+	  <link href="/recursos_web/rwd/css/ie.css" rel="stylesheet" type="text/css" media="screen" />
+	<![endif]-->
+	<link href="http://www.poderjudicial.es/recursos_web/rwd/css/cgpj/calendario_form.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="http://www.poderjudicial.es/recursos_web/css/jquery.autocomplete.css" rel="stylesheet" type="text/css" media="all" />	
+	<!--hoja de estilo propia para el cgpj-->
+	<link href="http://www.poderjudicial.es/recursos_web/rwd/css/cgpj/cgpj.css" rel="stylesheet" type="text/css" media="all" />
+	<!--Este es de desarrollo. TODO Pasar al directorio rwd-->
+	<script src="http://www.poderjudicial.es/recursos_web/rwd/js/cgpj/cgpj.js" type="text/javascript"></script>
+	<script src="http://www.poderjudicial.es/recursos_web/rwd/js/cgpj/abrirPaginaExterna.js" type="text/javascript"></script>
+	<script src="http://www.poderjudicial.es/recursos_web/rwd/js/cgpj/buscador.js" type="text/javascript"></script>
+	<script src="http://www.poderjudicial.es/recursos_web/rwd/js/cgpj/calendar.js" type="text/javascript"></script>
+	<script src="http://www.poderjudicial.es/recursos_web/rwd/js/cgpj/calendar-es.js" type="text/javascript"></script>
+			<script src="http://www.poderjudicial.es/recursos_web/rwd/js/cgpj/calendario.js" type="text/javascript"></script>
+	<script src="http://www.poderjudicial.es/recursos_web/rwd/js/cgpj/calendar-setup.js" type="text/javascript"></script>
+
+
+	
+
+	
+	
+	<script src="http://www.poderjudicial.es/recursos_web/rwd/js/jquery.min.js" type="text/javascript"></script>
+	<script src="http://www.poderjudicial.es/recursos_web/rwd/js/plugins.min.js" type="text/javascript"></script>
+	
+	
+
+
+<!-- CAMBIOS CARRUSEL Y DESTACADOS FALLA -->
+		<link href="http://www.poderjudicial.es/recursos_web/rwd/css/jquery.bxslider.css" rel="stylesheet" type="text/css" media="print, screen"/>
+		<script src="http://www.poderjudicial.es/recursos_web/rwd/js/jquery.bxslider.js" type="text/javascript"></script>
+		<script src="http://www.poderjudicial.es/recursos_web/rwd/js/layout_prueba.min.js" type="text/javascript"></script>
+<!-- FIN CAMBIOS CARRUSEL Y DESTACADOS FALLA -->
+	<script src="http://www.poderjudicial.es/recursos_web/rwd/js/pestanias_acordeon.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="http://www.poderjudicial.es/recursos_web/js/jquery.autocomplete.js"></script>
+	<script src="http://www.poderjudicial.es/stfls/cgpj/Instancias/Ficheros/jquery.databuscador.js" type="text/javascript"></script>
+
+	<!--script type="text/javascript" src="/recursos_web/js/jquery-ui.custom.js"></script-->	
+	<!--script type="text/javascript" src="/recursos_web/js/jquery.ui.autocomplete.js"></script-->
+	
+	
+	<!-- js para el popup de avisos -->
+	<script src="http://www.poderjudicial.es/recursos_web/rwd/js/jquery.fancybox.pack.min.js" type="text/javascript"></script>
+	<!-- Add fancyBox -->
+
+
+
+
+	<link rel="shortcut icon" href="http://www.poderjudicial.es/recursos_web/rwd/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="http://www.poderjudicial.es/recursos_web/rwd/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="http://www.poderjudicial.es/recursos_web/rwd/apple-touch-icon.png" />
+		
+	<script type="text/javascript">
+		$().ready(function() {
+		var options = { width: 228 }
+		
+				$("#srch_gnral").focus().autocomplete(categorias_es,options);
+				$("#textBuscador").focus().autocomplete(categorias_es,options);
+			
+});
+	</script>		
+	<!-- (verision original 1.9 o 1.10 ) script type="text/javascript"> -->
+
+<!--script type="text/javascript">
+  $(function() {
+   var options = { width: 206 }
+
+ 
+				
+					$( "#srch_gnral" ).autocomplete({source: categorias_es, options:options});
+					$( "#textBuscador" ).autocomplete({source: categorias_es, options:options});    
+				
+    
+  });
+ </script-->		
+<style>
+.field>input[type="radio"] {display: inline;vertical-align: inherit !important;}
+#resultados ul {	line-height: 20px;	padding-left: 5%;}
+.info {	line-height: 24px;	margin: 12px;	padding: 12px;}
+.info>span {	font-weight: bold;}
+.textoArticulo table tbody td {    border: 1px solid #9B9999;    width: 20%;}
+ .textoArticulo table tbody th {    border: 1px solid #9B9999;    width: 80%;}
+.textoArticulo table th {    min-width: 70% !important;    padding: 12px 45px;}
+.textoArticulo table td {    min-width: 30% !important;    padding: 12px 45px;}
+.thPrincipal {    min-width: 120px;    padding: 12px 15px !important;}
+.textoArticulo table th {    min-width: 120px;    padding: 12px 45px;}
+.textoArticulo table tbody td, .textoArticulo table tbody th {    border: 1px solid #9B9999;}
+.textoArticulo table td {    background: #D8D2D2 none repeat scroll 0 0;    font-weight: bold;    min-width: 120px;    text-align: center;    vertical-align: middle;}
+.textoArticulo table th {   background-color: #f7f7f7;    color: black;    text-align: left;    vertical-align: middle;}
+#resultados .field > span {    font-weight: bold;}
+#resultados .row {    width: 636px ;}
+#resultados .field {    float: left;    margin: 2px;    padding: 2px 2px 2px 12px;    width: 300px;}
+.modFormulario .btn1, .modFormulario .btn2, .modFormulario .btn1 a, .modFormulario .btn1 input, .modFormulario .btn2 a, .modFormulario .btn2 input {      margin: 3px !important;}
+#labelImporte {    vertical-align: middle;}
+.col1 {float: left;width: 94%;}
+.col2 {float: left; width: 5%;}
+.w185{width:185px !important;}
+.tablaResult td { min-width:20% !important;}
+.icoDescarga {float: none !important; margin-right: 0.1em !important;}
+.npi_y1 .mensaje_npi_y1 p {background: url(http://www.poderjudicial.es/recursos_cgpj/rwd/img/ico_info.png) left .6em no-repeat !important;}
+.npi_y1 {padding: 0px !important;}
+.npi_y1 .mensaje_npi_y1 {margin-bottom: 0.5em !important; padding-bottom: 0px !important;}
+.imgAddRem img{cursor:hand;vertical-align:middle;display:block;}
+.label span {    vertical-align: super;}
+.nota {    font-style: italic;    color: gray;    padding-left: 5.7em;}
+.boton input {    padding: 0.2em;    font-size: 0.9em;}
+.fleft{float: left;}
+.boton {    margin-top: 0.5em;    margin-left: 1em;}
+.textoArticulo table td {  min-width: 24% !important;    padding: 3px 3px !important;}
+.errorSpan{color:#B51733;width:110px !important;}
+
+@media only screen and (max-width : 768px) {
+#resultados ul {    padding-left: 0.1em !important;}
+.textoArticulo.textoCorrido div.info {    line-height: 1.5em !important;    margin: 0.4em !important;    padding: 0.4em !important;}
+.thPrincipal {    width: 75% !important;}
+#fechaIni, #fechaFin {    width: 80%;    float: left;    margin-right: 1em !important;}
+.nota {    padding-left: 0.5em !important;}
+#divRangoFechas div {    width: 95% !important;    margin: 2% !important;}
+.tablaResult th {    width: 70%;}
+#resultados .row {    width: 100% !important;}
+#resultados .field {    width: 95% !important;}
+}
+</style><!-- pantalla.css -->
+<style>
+/* menu superior */
+.ulNivel2>li {min-height: 30px}
+/* fin menu superior */
+</style>
+<!-- cgpj.css -->
+<style>
+.mod01 .tSmall{line-height:1;font-size:1.35em;margin-bottom:.7em;}
+</style></head><!--[if IE 7]><body class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><body class="lt-ie9"><![endif]-->
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if !IE]><!-->
+<body>
+<!--<![endif]-->
+<div id="posicionCookies"></div>
+<div id="mensajeCookies">
+	<div class="anchoCont">
+        <div class="cajaCookies">
+            <p>Uso de cookies</p>
+            <p>Utilizamos cookies propias y de terceros para mejorar nuestros servicios. Al continuar navegando, entendemos que aceptas nuestra <a href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Politica-de-privacidad">Politica de Cookies</a>.</p>
+			<div class="botonCerrar"><a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" title="Cerrar aviso - Acepto cookies"><img src="http://www.poderjudicial.es/recursos_cgpj/rwd/img/boton_cerrar_03.png" alt="Cerrar aviso - Acepto cookies"></a></div>
+        </div>
+    </div>
+</div>
+<div id="pagina">
+  <!-- En este siguiente div se pone la clase "siLogado" si el usuario está logado, y "noLogado" si no lo está -->
+	<div id="divLogado" class="noLogado">
+	    <!-- begin header area. Esto del legacy estaba en el antiguo gird: que es****************** -->
+		<!-- legacy rendering=true -->
+	    <header id="cabeceraPpal" role="banner">
+ <div class="anchoCont">
+	<div id="divLogo">
+		<!-- ****************************** EL LOGO SOLO ES H1 EN LA HOME Y HOME EXTRANET **********-->
+		<a id="logo" href="http://www.poderjudicial.es/cgpj/es/Poder_Judicial" accesskey="0" rel="home" title="Ir a la página de inicio"><span>Consejo General del Poder Judicial</span></a>
+		<!--[if lte IE 9]><span id="logo_imprimir_ie"><img src="/recursos_web/rwd/img/consejo_general_poder_judicial_imprimir.png" alt="" /></span><![endif]-->
+		</div>
+  </div>
+  <a id="atjPpal" class="atajo" href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#cuerpo">Acceder directamente al contenido principal</a>
+  <div id="divMenu">
+	<div id="envRecursiva" class="anchoCont">
+	  <div id="navRecursiva">
+		<ul>
+		  <li class="recurDespliega" id="recurIdioma">
+			<div class="envMov">
+				<a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" class="abre">
+					<span class="escMov">Español</span>
+				</a>
+			  <div class="desplegable">
+				<div class="fila">
+						<span class="oclt">Seleccione idioma</span>
+						  <ul>
+						  	<li class="activo"><a href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=a4b0b947c456b610VgnVCM1000006f48ac0aRCRD&amp;vgnextlocale=es&amp;vgnextfmt=default&amp;vgnextchannel=3dd7fa092b0d3510VgnVCM1000006f48ac0aRCRD&amp;lang_choosen=es" lang="es" hreflang="es">Español</a></li>
+										<li><a href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=a4b0b947c456b610VgnVCM1000006f48ac0aRCRD&amp;vgnextlocale=en&amp;vgnextfmt=default&amp;vgnextchannel=3dd7fa092b0d3510VgnVCM1000006f48ac0aRCRD&amp;lang_choosen=en" lang="en" hreflang="en">English</a></li>
+										<li><a href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=a4b0b947c456b610VgnVCM1000006f48ac0aRCRD&amp;vgnextlocale=fr&amp;vgnextfmt=default&amp;vgnextchannel=3dd7fa092b0d3510VgnVCM1000006f48ac0aRCRD&amp;lang_choosen=fr" lang="fr" hreflang="fr">Français</a></li>
+										<li><a href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=a4b0b947c456b610VgnVCM1000006f48ac0aRCRD&amp;vgnextlocale=ca&amp;vgnextfmt=default&amp;vgnextchannel=3dd7fa092b0d3510VgnVCM1000006f48ac0aRCRD&amp;lang_choosen=ca" lang="ca" hreflang="ca">Català</a></li>
+										<li><a href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=a4b0b947c456b610VgnVCM1000006f48ac0aRCRD&amp;vgnextlocale=eu&amp;vgnextfmt=default&amp;vgnextchannel=3dd7fa092b0d3510VgnVCM1000006f48ac0aRCRD&amp;lang_choosen=eu" lang="eu" hreflang="eu">Euskara</a></li>
+										<li><a href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=a4b0b947c456b610VgnVCM1000006f48ac0aRCRD&amp;vgnextlocale=gl&amp;vgnextfmt=default&amp;vgnextchannel=3dd7fa092b0d3510VgnVCM1000006f48ac0aRCRD&amp;lang_choosen=gl" lang="gl" hreflang="gl">Galego</a></li>
+									</ul>
+						  	  <!-- ****************************** RECARGA PAGINA SI EL IDIOMA NO EXISTE EN EL SITE (PROBLEMA DERIVADO CIEJ PT) **********-->
+						  <!-- ****************************** fin recargar **********-->
+				</div>
+			</div>
+			<a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" class="cierra"><span>Cerrar</span></a></div>
+		  </li>
+		 
+<li class="recurDespliega" id="recurPersona">
+			<div class="envMov"><a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" class="abre"><span class="escMov">
+				Personaliza tu portal</span></a>
+			  <div class="desplegable">
+
+				<div class="fila">
+				  <p class="pLabel">Elige tu perfil:</p>
+				</div>
+				<div class="fila">
+				  <ul id="slct_perfil">
+					<li class="activo"><a href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=a4b0b947c456b610VgnVCM1000006f48ac0aRCRD&amp;vgnextlocale=es&amp;vgnextfmt=default&amp;vgnextchannel=3dd7fa092b0d3510VgnVCM1000006f48ac0aRCRD&amp;perfil=0">Sin Perfil</a></li>
+					<li><a href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=a4b0b947c456b610VgnVCM1000006f48ac0aRCRD&amp;vgnextlocale=es&amp;vgnextfmt=default&amp;vgnextchannel=3dd7fa092b0d3510VgnVCM1000006f48ac0aRCRD&amp;perfil=1">Ciudadanía</a></li>
+					<li><a href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=a4b0b947c456b610VgnVCM1000006f48ac0aRCRD&amp;vgnextlocale=es&amp;vgnextfmt=default&amp;vgnextchannel=3dd7fa092b0d3510VgnVCM1000006f48ac0aRCRD&amp;perfil=2">Profesional</a></li>
+					<li><a href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=a4b0b947c456b610VgnVCM1000006f48ac0aRCRD&amp;vgnextlocale=es&amp;vgnextfmt=default&amp;vgnextchannel=3dd7fa092b0d3510VgnVCM1000006f48ac0aRCRD&amp;perfil=3">Empresa</a></li>
+					</ul>
+				</div>
+			  </div>
+			  <a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" class="cierra"><span>Cerrar</span></a></div>
+		  	</li>
+		<li class="recurDespliega" id="recurBusca">
+			<div class="envMov"><a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" class="abre"><span class="escMov">Buscar</span></a>
+			  <div class="desplegable">
+				<form name="buscar" method="get" role="search" id="form_busq_gnral" action="http://www.poderjudicial.es/cgpj/es/Buscadores" autocomplete="off">
+				  <div class="fila">
+					<label class="oculto" for="srch_gnral">Buscar:</label>
+					<input type="search" id="srch_gnral" name="text" autocomplete="off" />
+					<a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" onclick="procesarClickcab();"><img id="procesarcab" alt="micro" height="30px" width="30px" align="middle" src="http://www.poderjudicial.es/recursos_cgpj/rwd/img/iconos/microfono.png"/></a>
+						<script type="text/javascript">
+						        var recognitioncab;
+						        var recognizingcab = false;
+						        var originalTxtcab;
+						        var parcialTxtcab;
+						        var myVarcab;
+						        
+						        if (!('webkitSpeechRecognition' in window)) {
+						        
+						        } else {
+									var url = window.location.protocol;
+									
+									if (url=='https:'){ 									
+										document.getElementById("procesarcab").style.display = "block";
+										document.getElementById("srch_gnral").style.width = "200px";
+										document.getElementById("srch_gnral").style.position = "absolute";
+										
+							            recognitioncab = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
+							            recognitioncab.lang = "es-ES";
+							            recognitioncab.continuous = true;
+							            recognitioncab.interimResults = true;
+
+							            recognitioncab.onstart = function () {
+							                
+							                recognizingcab = true;
+							                console.log("empezando a eschucar");
+							            };
+							            
+							            recognitioncab.onresult = function (event) {
+
+							                for (var i = event.resultIndex; i < event.results.length; i++) {
+							                    if (event.results[i].isFinal)
+							                        document.getElementById("srch_gnral").value += event.results[i][0].transcript;
+							                };
+											
+							                console.log("onresult");
+							            };
+							            
+							            recognitioncab.onerror = function (event) {
+							                console.log("sss" + event.error);
+							            };
+							        
+							            recognitioncab.onend = function () {
+							                recognizingcab = false;
+							                document.getElementById('procesarcab').src = '/recursos_cgpj/rwd/img/iconos/microfono.png';
+							                console.log("terminó de escuchar, llegó a su fin");
+
+							            };
+							        };
+								
+						        };
+							function autoClickcab() {
+						  		
+						  		if (document.getElementById("srch_gnral").value.length>0)
+						  		{
+						  			
+						  			
+						  			if (! (originalTxtcab == document.getElementById("srch_gnral").value))
+						  			{
+						  				
+						  				if (parcialTxtcab == document.getElementById("srch_gnral").value)
+						  					procesarClickcab();
+						  				parcialTxtcab = document.getElementById("srch_gnral").value;
+						  			}
+						  		};
+							};
+						        function procesarClickcab() {
+									    
+						            if (!recognizingcab) {
+						            	document.getElementById('procesarcab').src = '/recursos_cgpj/rwd/img/iconos/microfono_rojo.png';
+						                
+						                
+						                if (document.getElementById("srch_gnral").value.length>0)
+						                	document.getElementById("srch_gnral").value += " "; 
+						                
+						                originalTxtcab = document.getElementById("srch_gnral").value;
+						                
+						                recognitioncab.start();
+						                
+						                recognizingcab = true;
+						                myVarcab = setInterval(autoClickcab, 2000);
+						                
+						                
+						            } else {
+						            	document.getElementById('procesarcab').src = '/recursos_cgpj/rwd/img/iconos/microfono.png';
+						                recognitioncab.stop();
+						                recognizingcab = false;
+						                clearInterval(myVarcab);
+						                document.getElementById("smbt_cab_srch_gnral").click();
+						                
+						            };
+						           
+						        };
+						        
+						    </script>	
+				  </div>
+				  <div class="fila"><span class="btn1">
+					  <input id="smbt_cab_srch_gnral" type="submit" value="Buscar">
+				  </span> </div>
+				  <!--div class="fila">
+					<p class="flecha"><a href="#">Busqueda avanzada</a></p>
+				  </div-->
+				</form>
+			  </div>
+			  <a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" class="cierra"><span>Cerrar</span></a></div>
+		  </li>
+		  <li class="recurDespliega" id="recurLogin">
+			<div class="envMov">
+			 
+			  
+			<a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" class="abre"><span class="escMov">Acceso&nbsp;a la extranet</span></a>
+				 <div class="desplegable">
+					<form id="form_login_extranet" action="https://login.poderjudicial.es/nidp/app/login?sid=0" name="loginForm" method="post">
+							<input type="hidden" name="login_action" id="login_action" value="true" />
+				     <input type="hidden" name="realm" id="realm" value="realm1" />
+					
+					  <div class="fila">
+						<label for="extranet_usuario">Usuario:</label>
+						<input type="text" id="extranet_usuario" name="Ecom_User_ID" tabindex="1" title="Nombre de usuario" />
+					  </div>
+			  
+					  <div class="fila">
+						<label for="Ecom_Password">Contraseña:</label>
+						<input type="password" id="Ecom_Password" name="Ecom_Password" tabindex="2" title="Contraseña"/>
+					  </div>
+					<input type="hidden" name="target" id="target" value="https://www3.poderjudicial.es/portal/site/cgpj/"/>				  
+						  <div class="fila">
+							<p><a href="https://sspr.poderjudicial.es/sspr/public/forgottenpassword">¿Has olvidado tu contraseña?</a> </p>
+						  </div>
+						  <div class="fila">
+							<p><a href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Certificado">¿Tienes problemas con el certificado?</a> </p>
+						  </div>						  
+					  <span class="btn1">
+					<input tabindex="3" id="sbmt_extranet" type="submit" value="Entrar">
+					</span>
+					</form>	
+				</div>			
+				<a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" class="cierra"><span>Cerrar</span></a></div>
+		  </li>
+		</ul>
+	  </div>
+	</div>
+<div id="tituMenu">
+
+<a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#">Menú</a></div>
+       	<nav id="navPpal" role="navigation">
+         	<div class="anchoCont">
+				<ul id="navInstituciones" class="ulNivel1">
+						<li class="liNivel1">
+									        	<div class="nivel1Ppal">
+									        		<a  accesskey="1" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Consejo-General-del-Poder-Judicial/">
+									        		<span class="env">Consejo General del Poder Judicial</span>
+									        		</a>
+									        	</div>
+									</li>
+							<li class="liNivel1">
+									        	<div class="nivel1Ppal">
+									        		<a  accesskey="2" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunal-Supremo/">
+									        		<span class="env">Tribunal Supremo</span>
+									        		</a>
+									        	</div>
+									</li>
+							<li class="liNivel1">
+									        	<div class="nivel1Ppal">
+									        		<a  accesskey="3" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Audiencia-Nacional/">
+									        		<span class="env">Audiencia Nacional</span>
+									        		</a>
+									        	</div>
+									</li>
+							<li class="liNivel1 despliega">
+									        	<div class="nivel1Ppal">
+														<a accesskey="4" href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#"  >
+														<span class="env">Tribunales Superiores de Justicia</span>
+														</a>
+												</div>
+
+												<div class="envN2">
+									               	<div class="anchoCont">
+									                   	<ul class="ulNivel2">
+																<li><a accesskey="7" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Andalucia--Ceuta-y-Melilla/" >
+														<span>TSJ Andalucía, Ceuta y Melilla</span>
+														</a></li>
+														<li><a accesskey="8" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Aragon/" >
+														<span>TSJ Aragón</span>
+														</a></li>
+														<li><a accesskey="9" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Asturias/" >
+														<span>TSJ Asturias</span>
+														</a></li>
+														<li><a accesskey="10" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Illes-Balears/" >
+														<span>TSJ Illes Balears</span>
+														</a></li>
+														<li><a accesskey="11" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Canarias/" >
+														<span>TSJ Canarias</span>
+														</a></li>
+														<li><a accesskey="12" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Cantabria/" >
+														<span>TSJ Cantabria</span>
+														</a></li>
+														<li><a accesskey="13" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Castilla-La-Mancha/" >
+														<span>TSJ Castilla-La Mancha</span>
+														</a></li>
+														<li><a accesskey="14" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Castilla-y-Leon/" >
+														<span>TSJ Castilla y León</span>
+														</a></li>
+														<li><a accesskey="15" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Cataluna/" >
+														<span>TSJ Cataluña</span>
+														</a></li>
+														<li><a accesskey="16" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Comunidad-Valenciana/" >
+														<span>TSJ Comunidad Valenciana</span>
+														</a></li>
+														<li><a accesskey="17" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Extremadura/" >
+														<span>TSJ Extremadura</span>
+														</a></li>
+														<li><a accesskey="18" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Galicia/" >
+														<span>TSJ Galicia</span>
+														</a></li>
+														<li><a accesskey="19" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-La-Rioja/" >
+														<span>TSJ La Rioja</span>
+														</a></li>
+														<li><a accesskey="20" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Madrid/" >
+														<span>TSJ Madrid</span>
+														</a></li>
+														<li><a accesskey="21" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Navarra/" >
+														<span>TSJ Navarra</span>
+														</a></li>
+														<li><a accesskey="22" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Pais-Vasco/" >
+														<span>TSJ País Vasco</span>
+														</a></li>
+														<li><a accesskey="23" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Tribunales-Superiores-de-Justicia/TSJ-Region-de-Murcia/" >
+														<span>TSJ Región de Murcia</span>
+														</a></li>
+														</ul>
+									                   </div>
+									            </div>
+									            </li>
+
+
+											</ul>
+
+					<ul id="navTemasServicios" class="ulNivel1">
+					<li class="liNivel1 despliega">
+								        	<div class="nivel1Ppal">
+													<a accesskey="5" href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" >
+													<span class="env">Servicios</span>
+													</a>
+											</div>
+
+											<div class="envN2">
+								               	<div class="anchoCont">
+								                   	<ul class="ulNivel2">
+
+															<li class="conSubmenu">
+														<a accesskey="24" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Juez-a/" >
+														<span>Acceso a la categoría de Juez/a</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="26" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Juez-a/Informacion-general/" >
+																					<span>Información general</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="27" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Juez-a/Anuncios/" >
+																					<span>Anuncios</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="28" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Juez-a/Convocatorias-en-curso/" >
+																					<span>Convocatorias en curso</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="29" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Juez-a/Historico-de-convocatorias/" >
+																					<span>Histórico de convocatorias</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="30" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-Carrera-Judicial--Jueces-y-Fiscales/Preparadores/" >
+																					<span>Preparadores</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="31" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a/" >
+														<span>Acceso a la categoría de Magistrado/a</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="33" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a/Informacion-general/" >
+																					<span>Información general</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="34" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a/Anuncios/" >
+																					<span>Anuncios</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="35" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a/Convocatorias-en-curso/" >
+																					<span>Convocatorias en curso</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="36" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a/Historico-de-convocatorias/" >
+																					<span>Histórico de convocatorias</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="37" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a-especialista/" >
+														<span>Acceso a la categoría de Magistrado/a especialista</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="39" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a-especialista/Informacion-general/" >
+																					<span>Información general</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="40" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a-especialista/Civil/" >
+																					<span>Civil</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="41" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a-especialista/Contencioso/" >
+																					<span>Contencioso</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="42" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a-especialista/Menores/" >
+																					<span>Menores</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="43" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a-especialista/Mercantil/" >
+																					<span>Mercantil</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="44" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a-especialista/Penal/" >
+																					<span>Penal</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="45" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Magistrado-a-especialista/Social/" >
+																					<span>Social</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="46" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acuerdos-del-CGPJ/" >
+														<span>Acuerdos del CGPJ</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="48" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acuerdos-del-CGPJ/Acuerdos-del-Pleno/" >
+																					<span>Acuerdos del Pleno</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="49" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acuerdos-del-CGPJ/Acuerdos-de-la-Comision-Permanente/" >
+																					<span>Acuerdos de la Comisión Permanente</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="50" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acuerdos-del-CGPJ/Acuerdos-de-la-Comision-Disciplinaria/" >
+																					<span>Acuerdos de la Comisión Disciplinaria</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="51" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acuerdos-del-CGPJ/Acuerdos-de-la-Comision-de-Igualdad/" >
+																					<span>Acuerdos de la Comisión de Igualdad</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="52" href="http://www.poderjudicial.es/cgpj/es/Servicios/Acuerdos-del-CGPJ/Acuerdos-de-la-Comision-de-Asuntos-Economicos/" >
+																					<span>Acuerdos de la Comisión de Asuntos Económicos</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="53" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/" >
+														<span>Atención Ciudadana</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="55" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/Servicios-a-la-ciudadania/" >
+																					<span>Servicios a la ciudadanía</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="56" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/Normativa/" >
+																					<span>Normativa</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="57" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/Unidad-de-Atencion-Ciudadana/" >
+																					<span>Unidad de Atención Ciudadana</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="58" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/Oficinas-de-Atencion-y-Decanatos/" >
+																					<span>Oficinas de Atención y Decanatos</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="59" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/Peticiones-de-informacion/" >
+																					<span>Peticiones de información</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="60" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/Quejas-y-reclamaciones/" >
+																					<span>Quejas y reclamaciones</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="61" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/Modelos-normalizados/" >
+																					<span>Modelos normalizados</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="62" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/Estadisticas-anuales/" >
+																					<span>Estadísticas anuales</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="63" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/Delegado-de-Proteccion-de-Datos/" >
+																					<span>Delegado de Protección de Datos</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="64" href="http://www.poderjudicial.es/cgpj/es/Servicios/Bibliotecas-judiciales/" >
+														<span>Bibliotecas judiciales</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="66" href="http://www.poderjudicial.es/cgpj/es/Servicios/Bibliotecas-judiciales/Informacion-general/" >
+																					<span>Información general</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="67" href="http://www.poderjudicial.es/cgpj/es/Servicios/Bibliotecas-judiciales/Catalogo-colectivo/" >
+																					<span>Catálogo colectivo</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="68" href="http://www.poderjudicial.es/cgpj/es/Servicios/Bibliotecas-judiciales/Directorio-de-bibliotecas-judiciales/" >
+																					<span>Directorio de bibliotecas judiciales</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="69" href="http://www.poderjudicial.es/cgpj/es/Servicios/Bibliotecas-judiciales/Recursos-documentales/" >
+																					<span>Recursos documentales</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="70" href="http://www.poderjudicial.es/cgpj/es/Servicios/Bibliotecas-judiciales/Jornadas-de-Bibliotecas-Judicales/" >
+																					<span>Jornadas de Bibliotecas Judiciales</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="">
+														<a accesskey="71" href="http://www.poderjudicial.es/cgpj/es/Servicios/Buzon-de-sugerencias/" >
+														<span>Buzón de sugerencias</span>
+														</a>
+
+														</li>
+													<li class="conSubmenu">
+														<a accesskey="72" href="http://www.poderjudicial.es/cgpj/es/Servicios/Demarcacion-y-Planta-Judicial/" >
+														<span>Demarcación y Planta Judicial</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="74" href="http://www.poderjudicial.es/cgpj/es/Servicios/Demarcacion-y-Planta-Judicial/Introduccion/" >
+																					<span>Introducción</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="75" href="http://www.poderjudicial.es/cgpj/es/Servicios/Demarcacion-y-Planta-Judicial/Consulta/Ambito-estatal/" >
+																					<span>Consulta</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="76" href="http://www.poderjudicial.es/cgpj/es/Servicios/Demarcacion-y-Planta-Judicial/Juzgados-especializados/" >
+																					<span>Juzgados especializados</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="77" href="http://www.poderjudicial.es/cgpj/es/Servicios/Demarcacion-y-Planta-Judicial/Registros-Civiles-Exclusivos/" >
+																					<span>Registros Civiles Exclusivos</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="78" href="http://www.poderjudicial.es/cgpj/es/Servicios/Directorio/Directorio_de_Organos_Judiciales" >
+														<span>Directorio</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="80" href="http://www.poderjudicial.es/cgpj/es/Servicios/Directorio/Directorio-de-Organos-Judiciales/" >
+																					<span>Directorio de Órganos Judiciales</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="81" href="http://www.jurisdiccionmilitar.es/" target="_blank">
+																					<span>Jurisdicción Militar</span>
+																					<span class="lectores">Abre en nueva ventana</span>
+																				</a>
+																					</li>
+																					<li>
+																					<a accesskey="82" href="http://www.poderjudicial.es/cgpj/es/Servicios/Directorio/Directorio-del-CGPJ/" >
+																					<span>Directorio del CGPJ</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="83" href="http://www.poderjudicial.es/cgpj/es/Servicios/Bibliotecas_judiciales/Directorio_de_bibliotecas_judiciales" >
+																					<span>Directorio de bibliotecas judiciales</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="84" href="http://www.poderjudicial.es/cgpj/es/Servicios/Atencion-Ciudadana/Oficinas-de-Atencion-y-Decanatos" >
+																					<span>Oficinas de Atención Ciudadana</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="85" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Organos-judiciales-que-ofrecen-mediacion/" >
+																					<span>Órganos judiciales que ofrecen mediación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="86" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Servicios-de-Mediacion-Intrajudicial/" >
+																					<span>Servicios de mediación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="87" href="http://www.poderjudicial.es/cgpj/es/Servicios/Directorio/Administracion-de-Justicia/" >
+																					<span>Administración de Justicia</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="88" href="http://www.poderjudicial.es/cgpj/es/Servicios/Empleo-Publico/" >
+														<span>Empleo Público</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="90" href="http://www.poderjudicial.es/cgpj/es/Servicios/Empleo-Publico/Anuncios/" >
+																					<span>Anuncios</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="91" href="http://www.poderjudicial.es/cgpj/es/Servicios/Empleo-Publico/Convocatorias-en-curso/" >
+																					<span>Convocatorias en curso</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="92" href="http://www.poderjudicial.es/cgpj/es/Servicios/Empleo-Publico/Cuerpo-de-Letrados-del-CGPJ/" >
+																					<span>Cuerpo de Letrados del CGPJ</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="93" href="http://www.poderjudicial.es/cgpj/es/Servicios/Empleo-Publico/Historico/" >
+																					<span>Histórico</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="94" href="http://www.poderjudicial.es/cgpj/es/Servicios/Empleo-Publico/Comisiones-de-servicio-para-el-Tribunal-Supremo/" >
+																					<span>Comisiones de servicio para el Tribunal Supremo</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="95" href="http://www.poderjudicial.es/cgpj/es/Servicios/Informacion-COVID-19/" >
+														<span>Información COVID 19</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="97" href="http://www.poderjudicial.es/cgpj/es/Servicios/Informacion-COVID-19/Informacion-General/" >
+																					<span>Información General</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="98" href="http://www.poderjudicial.es/cgpj/es/Servicios/Informacion-COVID-19/Guias-y-Protocolos/" >
+																					<span>Guías y Protocolos</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="99" href="http://www.poderjudicial.es/cgpj/es/Servicios/Informacion-COVID-19/Acuerdos-de-la-Comision-Permanente/" >
+																					<span>Acuerdos de la Comisión Permanente</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="100" href="http://www.poderjudicial.es/search/tema/Real Decreto alarma sanitaria Covid-19/11/AN" target="_blank">
+																					<span>Jurisprudencia</span>
+																					<span class="lectores">Abre en nueva ventana</span>
+																				</a>
+																					</li>
+																					<li>
+																					<a accesskey="101" href="http://www.poderjudicial.es/cgpj/es/Servicios/Informacion-COVID-19/Informacion-Ministerio-de-Justicia-y-Fiscalia-General-del-Estado/" >
+																					<span>Información Ministerio de Justicia y Fiscalía General del Estado</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="102" href="http://www.poderjudicial.es/cgpj/es/Servicios/Informacion-COVID-19/Informacion-Ministerio-de-Sanidad/" >
+																					<span>Información Ministerio de Sanidad</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="103" href="http://www.poderjudicial.es/cgpj/es/Servicios/Informacion-COVID-19/Jefatura-del-Estado/Estado-de-Alarma-/" >
+																					<span>Jefatura del Estado</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="104" href="http://www.poderjudicial.es/cgpj/es/Servicios/Informacion-COVID-19/Comisiones-de-seguimiento-TSJS/" >
+																					<span>Comisiones de seguimiento TSJS</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="105" href="http://www.poderjudicial.es/cgpj/es/Servicios/Jurisprudencia/" >
+														<span>Jurisprudencia</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="107" href="http://www.poderjudicial.es/cgpj/es/Servicios/Jurisprudencia/Buscador-Fondo-Documental-Jurisprudencia/" >
+																					<span>Buscador Fondo Documental-Jurisprudencia</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="108" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/Jurisprudencia/Sentencias-de-actualidad/Tribunal-Supremo/" >
+																					<span>Sentencias de actualidad</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="">
+														<a accesskey="109" href="http://www.poderjudicial.es/cgpj/es/Servicios/Perfil-de-Contratante/" >
+														<span>Perfil de Contratante</span>
+														</a>
+
+														</li>
+													<li class="conSubmenu">
+														<a accesskey="110" href="http://www.poderjudicial.es/cgpj/es/Servicios/Publicaciones/" >
+														<span>Publicaciones</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="112" href="http://www.poderjudicial.es/cgpj/es/Servicios/Publicaciones/Publicaciones-juridicas/" >
+																					<span>Publicaciones jurídicas</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="113" href="http://www.poderjudicial.es/search/publicaciones/" target="_blank">
+																					<span>Buscador Fondo Documental-Publicaciones</span>
+																					<span class="lectores">Abre en nueva ventana</span>
+																				</a>
+																					</li>
+																					<li>
+																					<a accesskey="114" href="http://www.poderjudicial.es/cgpj/es/Servicios/Publicaciones/Revista-del-Poder-Judicial---5--epoca--2011-/" >
+																					<span>Revista del Poder Judicial - 5ª época, 2011-</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="">
+														<a accesskey="115" href="http://www.poderjudicial.es/portal/site/sede/" target="_blank">
+														<span>Sede electrónica del CGPJ</span>
+														</a>
+
+														</li>
+													<li class="conSubmenu">
+														<a accesskey="116" href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/" >
+														<span>Utilidades</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="118" href="index.html" >
+																					<span>Cálculo de indemnizaciones por extinción de contrato de trabajo </span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="119" href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Calculo-de-pensiones-alimenticias/" >
+																					<span>Cálculo de pensiones alimenticias</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="120" href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Verificacion-de-mensajes-emitidos-por-Organos-Judiciales/" >
+																					<span>Verificación de mensajes emitidos por Órganos Judiciales</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="121" href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Baremo-de-indemnizaciones-en-accidentes-de-circulacion/" >
+																					<span>Baremo de indemnizaciones en accidentes de circulación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="122" href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Vademecum-sobre-condiciones-generales-de-contratacion/" >
+																					<span>Vademécum sobre condiciones generales de contratación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="123" href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Estadistica-Judicial-en-PC-AXIS/" >
+																					<span>Estadística Judicial en PC-AXIS</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													</ul>
+								                   </div>
+								            </div>
+								            </li>
+
+
+										<li class="liNivel1 despliega">
+								        	<div class="nivel1Ppal">
+													<a accesskey="6" href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#" >
+													<span class="env">Temas</span>
+													</a>
+											</div>
+
+											<div class="envN2">
+								               	<div class="anchoCont">
+								                   	<ul class="ulNivel2">
+
+															<li class="conSubmenu">
+														<a accesskey="124" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/" >
+														<span>Centro de Documentación Judicial (CENDOJ)</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+												                          	<a accesskey="125" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/" >
+																				<span class="env"><strong>Inicio:&nbsp;Centro de Documentación Judicial (CENDOJ)</strong>
+																				</span>
+																				</a>
+
+												                           </li>
+																	<li>
+																					<a accesskey="126" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/El-Cendoj--Mision-y-estructura/" >
+																					<span>El Cendoj, Misión y estructura</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="127" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/Jurisprudencia/" >
+																					<span>Jurisprudencia</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="128" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/Analisis-juridico/" >
+																					<span>Análisis jurídico</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="129" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/Documentacion--Publicaciones-y-Bibliotecas/" >
+																					<span>Documentación, Publicaciones y Bibliotecas</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="130" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/Portal-poderjudicial-es-y-entornos-web/" >
+																					<span>Portal poderjudicial.es y entornos web</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="131" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/Informatica-Judicial-e-Interna/" >
+																					<span>Informática Judicial e Interna</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="132" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/Presencia-y-colaboracion-internacional/" >
+																					<span>Presencia y colaboración internacional</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="133" href="http://www.poderjudicial.es/cgpj/es/Temas/Centro-de-Documentacion-Judicial--CENDOJ-/20-Anos-CENDOJ/" >
+																					<span>20 Años CENDOJ</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="134" href="http://www.poderjudicial.es/cgpj/es/Temas/Comision-de-Etica-Judicial/" >
+														<span>Comisión de Ética Judicial</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="136" href="http://www.poderjudicial.es/cgpj/es/Temas/Comision-de-Etica-Judicial/Que-es/" >
+																					<span>Qué es</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="137" href="http://www.poderjudicial.es/cgpj/es/Temas/Comision-de-Etica-Judicial/Funciones--/" >
+																					<span>Funciones  </span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="138" href="http://www.poderjudicial.es/cgpj/es/Temas/Comision-de-Etica-Judicial/Composicion/" >
+																					<span>Composición</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="139" href="http://www.poderjudicial.es/cgpj/es/Temas/Comision-de-Etica-Judicial/Documentos-de-interes/Principios-de-Etica-Judicial/" >
+																					<span>Documentos de interés</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="140" href="http://www.poderjudicial.es/cgpj/es/Temas/Comision-de-Etica-Judicial/Notas-informativas/" >
+																					<span>Notas informativas</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="141" href="http://www.poderjudicial.es/cgpj/es/Temas/Comision-de-Etica-Judicial/Dictamenes/" >
+																					<span>Dictámenes</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="142" href="http://www.poderjudicial.es/cgpj/es/Temas/Compendio-de-Derecho-Judicial/" >
+														<span>Compendio de Derecho Judicial</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="144" href="http://www.poderjudicial.es/cgpj/es/Temas/Compendio-de-Derecho-Judicial/Introduccion/" >
+																					<span>Introducción</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="145" href="http://www.poderjudicial.es/cgpj/es/Temas/Compendio-de-Derecho-Judicial/Leyes/" >
+																					<span>Leyes </span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="146" href="http://www.poderjudicial.es/cgpj/es/Temas/Compendio-de-Derecho-Judicial/Reglamentos/" >
+																					<span>Reglamentos</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="147" href="http://www.poderjudicial.es/cgpj/es/Temas/Compendio-de-Derecho-Judicial/Instrucciones/" >
+																					<span>Instrucciones</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="148" href="http://www.poderjudicial.es/cgpj/es/Temas/Compendio-de-Derecho-Judicial/Otras-normas-complementarias/" >
+																					<span>Otras normas complementarias</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="149" href="http://www.poderjudicial.es/cgpj/es/Temas/Compendio-de-Derecho-Judicial/Normativa-historica/" >
+																					<span>Normativa histórica</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="">
+														<a accesskey="150" href="http://www.poderjudicial.es/cgpj/es/Temas/Educar-en-Justicia/" >
+														<span>Educar en Justicia</span>
+														</a>
+
+														</li>
+													<li class="conSubmenu">
+														<a accesskey="151" href="http://www.poderjudicial.es/cgpj/es/Temas/e-Justicia/" >
+														<span>e-Justicia</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="153" href="http://www.poderjudicial.es/cgpj/es/Temas/e-Justicia/Informacion-general/" >
+																					<span>Información general</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="154" href="http://www.poderjudicial.es/cgpj/es/Temas/e-Justicia/Servicios-informaticos/" >
+																					<span>Servicios informáticos</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="155" href="http://www.poderjudicial.es/cgpj/es/Temas/e-Justicia/Nuevas-tecnologias/" >
+																					<span>Nuevas tecnologías</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="156" href="http://www.poderjudicial.es/cgpj/es/Temas/e-Justicia/Marco-juridico-TIC-en-Administracion-de-Justicia/" >
+																					<span>Marco jurídico TIC en Administración de Justicia</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="157" href="http://www.poderjudicial.es/cgpj/es/Temas/e-Justicia/Normas-de-Registro-de-asuntos/" >
+																					<span>Normas de Registro de asuntos</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="158" href="http://www.poderjudicial.es/cgpj/es/Temas/e-Justicia/Documentacion-y-publicaciones/" >
+																					<span>Documentación y publicaciones</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="159" href="http://www.poderjudicial.es/cgpj/es/Temas/Escuela-Judicial/" >
+														<span>Escuela Judicial</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+												                          	<a accesskey="160" href="http://www.poderjudicial.es/cgpj/es/Temas/Escuela-Judicial/" >
+																				<span class="env"><strong>Inicio:&nbsp;Escuela Judicial</strong>
+																				</span>
+																				</a>
+
+												                           </li>
+																	<li>
+																					<a accesskey="161" href="http://www.poderjudicial.es/cgpj/es/Temas/Escuela-Judicial/Presentacion-de-la-Escuela/" >
+																					<span>Presentación de la Escuela</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="162" href="http://www.poderjudicial.es/cgpj/es/Temas/Escuela-Judicial/Seleccion-de-Jueces-y-magistrados-as/" >
+																					<span>Selección de Jueces y magistrados/as</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="163" href="http://www.poderjudicial.es/cgpj/es/Temas/Escuela-Judicial/Formacion-Inicial/" >
+																					<span>Formación Inicial</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="164" href="http://www.poderjudicial.es/cgpj/es/Temas/Escuela-Judicial/Formacion-Continua/" >
+																					<span>Formación Continua</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="165" href="http://www.poderjudicial.es/cgpj/es/Temas/Escuela-Judicial/Formacion-Internacional/" >
+																					<span>Formación Internacional</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="166" href="http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/" >
+														<span>Estadística Judicial</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+												                          	<a accesskey="167" href="http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/" >
+																				<span class="env"><strong>Inicio:&nbsp;Estadística Judicial</strong>
+																				</span>
+																				</a>
+
+												                           </li>
+																	<li>
+																					<a accesskey="168" href="http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Informacion-general/" >
+																					<span>Información general</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="169" href="http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/" >
+																					<span>Estadística por temas</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="170" href="http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estudios-e-Informes/" >
+																					<span>Estudios e Informes</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="171" href="http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Base-de-datos-de-la-estadistica-judicial--PC-AXIS-/" >
+																					<span>Base de datos de la estadística judicial (PC-AXIS)</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="172" href="http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Plan-Nacional-de-Estadistica-Judicial/" >
+																					<span>Plan Nacional de Estadística Judicial</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="173" href="http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Informacion-socioeconomica-relacionada-con-la-Administracion-de-Justicia/Sistema-de-Informacion-Socioeconomica-de-las-demarcaciones-judiciales/" >
+																					<span>Sistema de Información Socioeconómica</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="174" href="http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Calendario-de-Publicaciones/" >
+																					<span>Calendario de Publicaciones</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="175" href="http://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Ultimas-novedades/" >
+																					<span>Últimas novedades</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="176" href="http://www.poderjudicial.es/cgpj/es/Temas/Foro-Justicia-y-Discapacidad/" >
+														<span>Foro Justicia y Discapacidad</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="178" href="http://www.poderjudicial.es/cgpj/es/Temas/Foro-Justicia-y-Discapacidad/Presentacion/" >
+																					<span>Presentación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="179" href="http://www.poderjudicial.es/cgpj/es/Temas/Foro-Justicia-y-Discapacidad/Composicion/" >
+																					<span>Composición</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="180" href="http://www.poderjudicial.es/cgpj/es/Temas/Foro-Justicia-y-Discapacidad/Delegados-as-y-organos-especializados/Listado-Delegados-as/" >
+																					<span>Delegados/as y órganos especializados</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="181" href="http://www.poderjudicial.es/cgpj/es/Temas/Foro-Justicia-y-Discapacidad/Actas/" >
+																					<span>Actas</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="182" href="http://www.poderjudicial.es/cgpj/es/Temas/Foro-Justicia-y-Discapacidad/Actividades/" >
+																					<span>Actividades</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="183" href="http://www.poderjudicial.es/cgpj/es/Temas/Foro-Justicia-y-Discapacidad/Documentos-de-interes/Convenio-constitutivo/" >
+																					<span>Documentos de interés</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="184" href="http://www.poderjudicial.es/cgpj/es/Temas/Foro-Justicia-y-Discapacidad/Personas-y-entidades-colaboradoras/" >
+																					<span>Personas y entidades colaboradoras</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="185" href="http://www.poderjudicial.es/cgpj/es/Temas/Igualdad-de-Genero/" >
+														<span>Igualdad de Género</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="187" href="http://www.poderjudicial.es/cgpj/es/Temas/Igualdad-de-Genero/Bienvenida/" >
+																					<span>Bienvenida</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="188" href="http://www.poderjudicial.es/cgpj/es/Temas/Igualdad-de-Genero/La-igualdad-de-genero-en-la-carrera-judicial/" >
+																					<span>La igualdad de género en la carrera judicial</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="189" href="http://www.poderjudicial.es/cgpj/es/Temas/Igualdad-de-Genero/Actividades-de-la-Comision-de-Igualdad/Objetivos-e-integrantes/" >
+																					<span>Actividades de la Comisión de Igualdad</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="190" href="http://www.poderjudicial.es/cgpj/es/Temas/Igualdad-de-Genero/Acuerdos-sobre-igualdad/" >
+																					<span>Acuerdos sobre igualdad</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="191" href="http://www.poderjudicial.es/cgpj/es/Temas/Igualdad-de-Genero/Legislacion-y-jurisprudencia/Legislacion/" >
+																					<span>Legislación y jurisprudencia</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="192" href="http://www.poderjudicial.es/cgpj/es/Temas/Igualdad-de-Genero/Estadisticas--estudios-e-informes/Estadisticas/" >
+																					<span>Estadísticas, estudios e informes</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="193" href="http://www.poderjudicial.es/cgpj/es/Temas/Igualdad-de-Genero/Protocolo-frente-al-acoso/" >
+																					<span>Protocolo frente al acoso</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="194" href="http://www.poderjudicial.es/cgpj/es/Temas/Igualdad-de-Genero/Normas-minimas-lenguaje-inclusivo/" >
+																					<span>Normas mínimas lenguaje inclusivo</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="195" href="http://www.poderjudicial.es/cgpj/es/Temas/Inspeccion/" >
+														<span>Inspección</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="197" href="http://www.poderjudicial.es/cgpj/es/Temas/Inspeccion/Inspeccion-de-los-Juzgados-y-Tribunales/" >
+																					<span>Inspección de los Juzgados y Tribunales</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="198" href="http://www.poderjudicial.es/cgpj/es/Temas/Inspeccion/El-Servicio-de-Inspeccion/" >
+																					<span>El Servicio de Inspección</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="199" href="http://www.poderjudicial.es/cgpj/es/Temas/Inspeccion/Plan-de-Trabajo/" >
+																					<span>Plan de Trabajo</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="200" href="http://www.poderjudicial.es/cgpj/es/Temas/Inspeccion/Guia-de-inspecciones/" >
+																					<span>Guía de inspecciones</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="201" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/" >
+														<span>Mediación</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="203" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Presentacion/" >
+																					<span>Presentación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="204" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Triptico-de-mediacion/" >
+																					<span>Tríptico de mediación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="205" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Guia-para-la-practica-de-la-Mediacion-Intrajudicial/" >
+																					<span>Guía para la práctica de la Mediación Intrajudicial</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="206" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Organos-judiciales-que-ofrecen-mediacion/" >
+																					<span>Órganos judiciales que ofrecen mediación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="207" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Convenios/" >
+																					<span>Convenios</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="208" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Normativa-y-jurisprudencia/" >
+																					<span>Normativa y jurisprudencia</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="209" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Servicios-de-Mediacion-Intrajudicial/" >
+																					<span>Servicios de Mediación Intrajudicial</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="210" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Publicaciones/" >
+																					<span>Publicaciones</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="211" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Datos-mediacion-intrajudicial/" >
+																					<span>Datos mediación intrajudicial</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="212" href="http://www.poderjudicial.es/cgpj/es/Temas/Mediacion/Noticias-y-avisos/" >
+																					<span>Noticias y avisos</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="213" href="http://www.poderjudicial.es/cgpj/es/Temas/Proteccion-de-Datos/" >
+														<span>Protección de Datos</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="215" href="http://www.poderjudicial.es/cgpj/es/Temas/Proteccion-de-Datos/Informacion-General/" >
+																					<span>Información General</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="216" href="http://www.poderjudicial.es/cgpj/es/Temas/Proteccion-de-Datos/Normativa/" >
+																					<span>Normativa</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="217" href="http://www.poderjudicial.es/cgpj/es/Temas/Proteccion-de-Datos/Registro-de-Actividades-de-Tratamiento/" >
+																					<span>Registro de Actividades de Tratamiento</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="218" href="http://www.poderjudicial.es/cgpj/es/Temas/Proteccion-de-Datos/Ejercicio-de-derechos--formulario-/" >
+																					<span>Ejercicio de derechos: formulario </span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="219" href="http://www.poderjudicial.es/cgpj/es/Temas/Proteccion-de-Datos/Delegado-de-Proteccion-de-Datos/" >
+																					<span>Delegado de Protección de Datos</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="220" href="http://www.poderjudicial.es/cgpj/es/Temas/Redes-Judiciales/" >
+														<span>Redes Judiciales</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="222" href="http://www.poderjudicial.es/cgpj/es/Temas/Redes-Judiciales/Informacion-general/" >
+																					<span>Información general</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="223" href="http://www.poderjudicial.es/cgpj/es/Temas/Redes-Judiciales/Red-Judicial-Espanola---REJUE-/" >
+																					<span>Red Judicial Española  (REJUE)</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="224" href="http://www.poderjudicial.es/cgpj/es/Temas/Redes-Judiciales/Red-de-Especialistas-en-Derecho-de-la-Union-Europea--REDUE-/-Que-es-la-REDUE-/" >
+																					<span>Red de Especialistas en Derecho de la Unión Europea (REDUE)</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="225" href="http://www.poderjudicial.es/cgpj/es/Temas/Redes-Judiciales/Otras-redes-judiciales/Red-Judicial-Europea-Penal/" >
+																					<span>Otras redes judiciales</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="226" href="http://www.poderjudicial.es/cgpj/es/Temas/Relaciones-internacionales/" >
+														<span>Relaciones internacionales</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="228" href="http://www.poderjudicial.es/cgpj/es/Temas/Relaciones-internacionales/Presentacion/" >
+																					<span>Presentación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="229" href="http://www.poderjudicial.es/cgpj/es/Temas/Relaciones-internacionales/El-Servicio-de-Relaciones-Internacionales/" >
+																					<span>El Servicio de Relaciones Internacionales</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="230" href="http://www.poderjudicial.es/cgpj/es/Temas/Relaciones-internacionales/Cooperacion-internacional-al-desarrollo/" >
+																					<span>Cooperación internacional al desarrollo</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="231" href="http://www.poderjudicial.es/cgpj/es/Temas/Relaciones-internacionales/Proyectos-internacionales/" >
+																					<span>Proyectos internacionales</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="232" href="http://www.poderjudicial.es/cgpj/es/Temas/Relaciones-internacionales/Auxilio-judicial-internacional/" >
+																					<span>Auxilio judicial internacional</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="233" href="http://www.poderjudicial.es/cgpj/es/Temas/Relaciones_internacionales/Relaciones_internacionales_institucionales?vgnextrefresh=1" >
+																					<span>Relaciones internacionales institucionales</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="234" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/" >
+														<span>Transparencia</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+												                          	<a accesskey="235" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/" >
+																				<span class="env"><strong>Inicio:&nbsp;Transparencia</strong>
+																				</span>
+																				</a>
+
+												                           </li>
+																	<li>
+																					<a accesskey="236" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/Informacion-institucional/Como-funciona-el-CGPJ/" >
+																					<span>Información institucional</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="237" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/Actividad-del-CGPJ/Acuerdos/" >
+																					<span>Actividad del CGPJ</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="238" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/Normativa-y-documentacion/" >
+																					<span>Normativa y documentación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="239" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/Actividad-Economico-Financiera/" >
+																					<span>Actividad Económico Financiera</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="240" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/Buen-Gobierno--Codigo-etico-y-Comision-de-Etica-Judicial/" >
+																					<span>Buen Gobierno, Código ético y Comisión de Ética Judicial</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="241" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/Procesos-selectivos-de-nombramientos-discrecionales-en-organos-judiciales/?estadoPS=ENCURSO" >
+																					<span>Procesos selectivos de nombramientos discrecionales en órganos judiciales</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="242" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/Solicitud-de-acceso-a-la-informacion-publica/" >
+																					<span>Solicitud de acceso a la información pública</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="243" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/Compatibilidades/" >
+																					<span>Compatibilidades</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="244" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/Repositorio-de-datos-sobre-procesos-por-corrupcion/Informacion--general/" >
+																					<span>Repositorio de datos sobre procesos por corrupción</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="245" href="http://www.poderjudicial.es/cgpj/es/Temas/Transparencia/Estimacion-de-los-tiempos-medios-de-duracion-de-los-procedimientos-judiciales/" >
+																					<span>Estimación de los tiempos medios de duración de los procedimientos judiciales</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													<li class="conSubmenu">
+														<a accesskey="246" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/" >
+														<span>Violencia doméstica y de género</span>
+														</a>
+
+														<div class="envN3">
+												                          <ul class="ulNivel3">
+												                          <li>
+																					<a accesskey="248" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/El-Observatorio-contra-la-violencia-domestica-y-de-genero/" >
+																					<span>El Observatorio contra la violencia doméstica y de género</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="249" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/Actividad-del-Observatorio/" >
+																					<span>Actividad del Observatorio</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="250" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/Grupos-de-expertos/" >
+																					<span>Grupos de expertos</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="251" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/La-orden-de-proteccion/" >
+																					<span>La orden de protección</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="252" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/Guias-y-Protocolos-de-actuacion/" >
+																					<span>Guía y protocolos de actuación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="253" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/Comision-de-seguimiento/" >
+																					<span>Comisión de seguimiento</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="254" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/Comisiones-provinciales-de-coordinacion/" >
+																					<span>Comisiones provinciales de coordinación</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="255" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/Directorio-de-Juzgados-de-Violencia-y-Oficinas-de-ayuda/" >
+																					<span>Directorio de Juzgados de Violencia y Oficinas de ayuda</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="256" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/Legislacion-y-jurisprudencia/Legislacion/" >
+																					<span>Legislación y jurisprudencia</span>
+																					</a>
+																					</li>
+																					<li>
+																					<a accesskey="257" href="http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/Enlaces-de-interes/" >
+																					<span>Enlaces de interés</span>
+																					</a>
+																					</li>
+																					</ul>
+												       </div>
+
+													</li>
+													</ul>
+								                   </div>
+								            </div>
+								            </li>
+
+
+										</ul>
+
+
+
+
+
+
+
+
+
+          	</div>
+       	</nav>
+
+
+</div>
+</header><!-- end header area -->
+		
+<main id="cuerpo" role="main">
+			<!-- begin Ticker area. PEDIR TICKER -->
+			<!-- end Ticker area -->
+			<div>
+<nav id="navMigas">
+<div class="anchoCont">
+<p>Estás en:</p>
+<ol>
+<li>Utilidades</li>
+<li>
+<a href="index.html">Cálculo de indemnizaciones por extinción de contrato de trabajo</a>
+</li>
+</ol>
+</div>
+</nav>
+</div>
+<!-- begin page content area -->
+			<div class="anchoCont">
+				<div class="anchoCols1" id="colPpal">
+						<div id="saltarATerciaria">
+<a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#navTerciaria" class="atajo2">
+<span>Submenú de esta sección</span>
+</a>
+</div>
+<section class="plantillaInterior1">
+<header class="cabeceraInterior">
+<h1 class="titu2">Cálculo de indemnizaciones por extinción de contrato de trabajo</h1>
+<div class="textoIntroDetalle textoCorrido">Aplicación que calcula el importe de  las indemnizaciónes por extinción de contrato de trabajo en diferentes casos.</div>
+</header>
+<div class="textoArticulo textoCorrido"><p>El CGPJ pone a disposici&oacute;n de los miembros de la carrera judicial,&nbsp;abogac&iacute;a, graduados/as sociales, procuradores/as, sindicatos, trabajadores/as, empresas, letrados/as de las Administraciones P&uacute;blicas y ciudadan&iacute;a en general una herramienta inform&aacute;tica para facilitar el c&aacute;lculo del importe de las indemnizaciones por extinci&oacute;n del contrato de trabajo, proporcionando seguridad jur&iacute;dica.</p>
+<p>&nbsp;</p>
+<p>Basta&nbsp; introducir&nbsp; tres datos: la fecha de inicio de la relaci&oacute;n laboral, la fecha de finalizaci&oacute;n de esa relaci&oacute;n y el salario (diario, mensual o anual). Debe consignarse el salario bruto y si es mensual, prorratear las pagas extraordinarias. En la pantalla aparecer&aacute; la indemnizaci&oacute;n de la extinci&oacute;n del contrato de trabajo, seg&uacute;n causas de extinci&oacute;n y calificaci&oacute;n tasadas por la ley y la vigente doctrina jurisprudencial que la interpreta.</p>
+<p>&nbsp;</p>
+<p>Los resultados no son vinculantes.</p>
+<p>&nbsp;</p>
+<div class="textoArticulo textoCorrido">
+<p>(...<a href="http://www.poderjudicial.es/stfls/CGPJ/UTILIDADES/Gu%C3%ADa%20pr%C3%A1ctica%20legal%20y%20jurisprudencial%20c%C3%A1lculo%20indemnizaciones_junio%202020.pdf" >Consulte la gu&iacute;a legal y jurisprudencial de la herramienta - v. 0.4 actualizada a junio de 2020 <img class="ico" style="float: none !important; margin-right: 1px !important;" src="http://www.poderjudicial.es/recursos_web/rwd/img/archivo_pdf.png" alt="Documento pdf" width="16" height="16" /></a>)</p>
+<p class="publico">(...<a href="http://www.poderjudicial.es/stfls/CGPJ/UTILIDADES/20190701%20Nota%20actualizaci%C3%B3n%20gu%C3%ADa%20_%20julio-%202019_.pdf" >Nota de actualizaci&oacute;n - julio 2019 <img class="ico" style="float: none !important; margin-right: 1px !important;" src="http://www.poderjudicial.es/recursos_web/rwd/img/archivo_pdf.png" alt="Documento pdf" width="16" height="16" /></a>)</p>
+<p class="privado oclt">&nbsp;(...<a href="http://www.poderjudicial.es/stfls/CGPJ/UTILIDADES/20190702%20Nota%20actualizaci%C3%B3n%20gu%C3%ADa%20EXTRANET%20_%20julio-%202019_doc.pdf" >Nota de actualizaci&oacute;n - julio 2019 <img class="ico" style="float: none !important; margin-right: 1px !important;" src="http://www.poderjudicial.es/recursos_web/rwd/img/archivo_pdf.png" alt="Documento pdf" width="16" height="16" /></a>)</p>
+<p>(...<a href="http://www.poderjudicial.es/stfls/CGPJ/UTILIDADES/Nota%20actualizaci%C3%B3n%20gu%C3%ADa%20_%20junio-%202020_.pdf" >Nota de actualizaci&oacute;n - junio 2020 <img class="ico" style="float: none !important; margin-right: 1px !important;" src="http://www.poderjudicial.es/recursos_web/rwd/img/archivo_pdf.png" alt="Documento pdf" width="16" height="16" /></a>)</p>
+</div></div>
+					
+						<script type="text/javascript">
+							elem=document.getElementById("autoPopUp");
+ 							var nav = navigator.userAgent;
+							if(elem){
+
+								function openPopUp(url)
+								{
+									windowHandle = window.open('', 'popupWin', 'width=800, height=600, scrollbars=yes, menubar=no, status=no, location=no, resizable=yes')
+											try {
+											    windowHandle.document.location.href = url;
+											} catch (exc) {
+											    windowHandle.close();
+											    windowHandle = window.open(url, 'popupWin','width=800, height=600, scrollbars=yes, menubar=no, status=no, location=no, resizable=yes')
+											}
+											windowHandle.focus();
+
+									return true;
+								}
+								if(openPopUp(elem.title)){
+
+								}
+
+
+
+							}
+							function openOnClickPopUp(elem){
+								if(elem){
+									if(elem.title){
+										openPopUp(elem.title);
+									}
+								}
+								}
+
+						</script>
+					
+<aside id="compartirPie" class="modCompartir">
+<div class="cont">
+<p>Compartir en </p>
+<ul class="ulCompartir">
+<li>
+<a title="Compartir en Facebook, en nueva ventana" href="https://www.facebook.com/sharer.php?u=http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo/Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo" target="_blank" data-tmtitle="Facebook" id="TM-RS-SHARE-FACEBOOK">
+<img alt="Facebook" width="32" src="http://www.poderjudicial.es/recursos_web/rwd/img/compartir_facebook.png"/>
+<span class="lectores">Abre en nueva ventana</span>
+</a>
+</li>
+<li>
+<a title="Compartir en Twitter, en nueva ventana" href="https://twitter.com/home?status=leyendo%20http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo/Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo" target="_blank" data-tmtitle="Twitter" id="TM-RS-SHARE-TWITTER">
+<img alt="Twiter" width="32" src="http://www.poderjudicial.es/recursos_web/rwd/img/compartir_twitter.png"/>
+<span class="lectores">Abre en nueva ventana</span>
+</a>
+</li>
+<li>
+<a title="Compartir en Linkedin, en nueva ventana" href="https://www.linkedin.com/shareArticle?url=http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo/Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo" target="_blank" data-tmtitle="Likedin" id="TM-RS-SHARE-LINKEDIN">
+<img alt="Linkedin" width="32" src="http://www.poderjudicial.es/recursos_web/rwd/img/compartir_linkedin.png"/>
+<span class="lectores">Abre en nueva ventana</span>
+</a>
+</li>
+<li>
+<form method="post" id="enviar" name="enviar" action="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Enviar-a/">
+<a onclick="document.forms['enviar'].submit(); return false;" title="Enviar a un amigo" data-tmtitle="Email" id="TM-RS-SHARE-EMAIL">
+<img alt="Email" width="32" src="http://www.poderjudicial.es/recursos_web/rwd/img/compartir_email.png"/>
+</a>
+<input value="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo/Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo" name="url" id="url" type="hidden"/>
+<input value="Cálculo de indemnizaciones por extinción de contrato de trabajo" name="title" title="title" type="hidden"/>
+<input value="false" name="isSecure" id="isSecure" type="hidden"/>
+<input value="http" name="schema" id="schema" type="hidden"/>
+<input value="" name="user" id="user" type="hidden"/>
+<input value="http" name="protocolo" id="protocolo" type="hidden"/>
+<noscript>
+<input value="Enviar a un amigo" name="Enviar a un amigo" type="submit"/>
+</noscript>
+</form>
+</li>
+</ul>
+</div>
+</aside>
+</section>
+</div>
+			<div class="anchoCols1" id="colLateral">
+						<nav id="navTerciaria" role="navigation">
+
+	<!-- a href="/cgpj/es/Servicios/Utilidades/" target="" -->
+				<h2 class="srcVariable" data-bgl='/stfls/VgnExtDescriptors/rwd-img/utilidades.jpg'><span class="env">Utilidades</span>
+					</h2>
+			<!-- /a -->
+	<ul class="ul1">
+     	  <li class='activo'>
+								<a href="index.html" target="">
+								<span>Cálculo de indemnizaciones por extinción de contrato de trabajo</span>
+
+									</a>
+								</li>
+
+		<li >
+								<a href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Calculo-de-pensiones-alimenticias/" target="">
+								<span>Cálculo de pensiones alimenticias</span>
+
+									</a>
+								</li>
+
+		<li >
+								<a href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Verificacion-de-mensajes-emitidos-por-Organos-Judiciales/" target="">
+								<span>Verificación de mensajes emitidos por Órganos Judiciales</span>
+
+									</a>
+								</li>
+
+		<li >
+								<a href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Baremo-de-indemnizaciones-en-accidentes-de-circulacion/" target="">
+								<span>Baremo de indemnizaciones en accidentes de circulación</span>
+
+									</a>
+								</li>
+
+		<li >
+								<a href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Vademecum-sobre-condiciones-generales-de-contratacion/" target="">
+								<span>Vademécum sobre condiciones generales de contratación</span>
+
+									</a>
+								</li>
+
+		<li >
+								<a href="http://www.poderjudicial.es/cgpj/es/Servicios/Utilidades/Estadistica-Judicial-en-PC-AXIS/" target="">
+								<span>Estadística Judicial en PC-AXIS</span>
+
+									</a>
+								</li>
+
+		</ul> <!-- class ul1 -->
+		</nav>
+</div>
+			</div>
+		</main>
+<!-- begin footer area -->
+		<div id="saltarACabecera">
+<a href="Calculo-de-indemnizaciones-por-extincion-de-contrato-de-trabajo.html#pagina" class="atajo2">
+<span>Subir al inicio de la pagina</span>
+</a>
+</div>
+<footer role="contentinfo" id="piePpal">
+<div class="anchoCont">
+<aside id="ulRedes">
+<ul>
+<li>
+<a title="Síguenos en Facebook, en nueva ventana" href="https://www.facebook.com/pages/CONSEJO-GENERAL-DEL-PODER-JUDICIAL/150426278367459" target="_blank" data-tmtitle="Facebook" id="TG-PIE-SOCIAL-FACEBOOK">
+<img alt="Síguenos en Facebook, en nueva ventana" src="http://www.poderjudicial.es/recursos_web/rwd/img/perfil_facebook.png"/>
+<span class="lectores">Abre en nueva ventana</span>
+</a>
+</li>
+<li>
+<a title="Síguenos en Twitter" href="https://twitter.com/PoderJudicialEs" target="_blank" id="TG-PIE-SOCIAL-TWITTER" data-tmtitle="Twitter">
+<img alt="Síguenos en Twitter" src="http://www.poderjudicial.es/recursos_web/rwd/img/perfil_twitter.png"/>
+<span class="lectores">Abre en nueva ventana</span>
+</a>
+</li>
+</ul>
+</aside>
+<nav id="navLegal">
+<ul>
+<li>
+<a title="Aviso Legal" href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=47e7d17dc7a99210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;vgnextlocale=es_ES" id="TG-PIE-ENLACE-1">Aviso Legal</a>
+</li>
+<li>
+<a title="Política de privacidad" href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=aa29cf150e1a9210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;vgnextlocale=es_ES" id="TG-PIE-ENLACE-2">Política de privacidad</a>
+</li>
+<li>
+<a title="Contacto" href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.178d5a0b03ac7b23737c9ad3dc432ea0/?vgnextoid=d6c0e0f71b83a210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;vgnextlocale=es_ES" id="TG-PIE-ENLACE-3">Contacto</a>
+</li>
+<li>
+<a title="Accesibilidad" href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=2358cf150e1a9210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;vgnextlocale=es_ES" id="TG-PIE-ENLACE-4">Accesibilidad</a>
+</li>
+<li>
+<a title="RSS" href="http://www.poderjudicial.es/portal/site/cgpj/menuitem.65d2c4456b6ddb628e635fc1dc432ea0/?vgnextoid=ba975d56de13a210VgnVCM100000cb34e20aRCRD&amp;vgnextfmt=default&amp;vgnextlocale=es_ES" id="TG-PIE-ENLACE-5">RSS</a>
+</li>
+<li>
+<a title="Índice A-Z" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/Indice-A-Z/" id="TG-PIE-ENLACE-6">Índice A-Z</a>
+</li>
+<li>
+<a title="FAQs" href="http://www.poderjudicial.es/cgpj/es/Poder-Judicial/FAQs/" id="TG-PIE-ENLACE-7">FAQs</a>
+</li>
+</ul>
+</nav>
+<span class="copyRight">Copyright © Consejo General del Poder Judicial</span>
+</div>
+</footer>
+<script language="javascript">
+var xmlhttp=false;
+var xmlhttp1=false;
+var xmlhttp2=false;
+var ds="";
+var test = "";
+var test1 = "";
+var estado = 0;
+var doc1= "";
+var doc2= "";
+var doc3= "";
+var isIE = false;
+var isIE9 = false;
+var intervalo = null;
+/*@cc_on @*/
+
+/*@if (@_jscript_version >= 5)
+
+	try {
+		isIE = true;
+		xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+		xmlhttp1 = new ActiveXObject("Msxml2.XMLHTTP");
+		xmlhttp2 = new ActiveXObject("Msxml2.XMLHTTP");
+		
+	} catch (e) {
+		try {
+			xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+			xmlhttp1 = new ActiveXObject("Microsoft.XMLHTTP");
+			xmlhttp2 = new ActiveXObject("Microsoft.XMLHTTP");
+
+		} catch (E) {
+			xmlhttp = false;
+			xmlhttp1 = false;
+			xmlhttp2 = false;
+
+		}
+	}
+
+@else
+
+	xmlhttp = false;
+	xmlhttp1 = false;
+	xmlhttp2 = false;
+
+@end @*/
+
+if(navigator.userAgent.indexOf("Trident/5")>-1)
+	isIE9 = true;
+	
+//alert ("Es IE:"+isIE);
+if (!xmlhttp && typeof XMLHttpRequest!='undefined') {
+
+	try {
+
+      xmlhttp = new XMLHttpRequest();
+    } catch (e) {
+      xmlhttp = false;
+    }
+
+}
+
+if (!xmlhttp1 && typeof XMLHttpRequest!='undefined') {
+
+	try {
+
+      xmlhttp1 = new XMLHttpRequest();
+    } catch (e) {
+      xmlhttp1 = false;
+    }
+
+}
+
+if (!xmlhttp2 && typeof XMLHttpRequest!='undefined') {
+
+	try {
+
+      xmlhttp2 = new XMLHttpRequest();
+    } catch (e) {
+      xmlhttp2 = false;
+    }
+
+}
+
+
+
+function loadDoc(docname) {
+if (estado!=5)
+	estado=0;
+	if (xmlhttp) {
+	xmlhttp.open("GET", docname,true);
+	 xmlhttp.onreadystatechange=function() {
+		  if (xmlhttp.readyState==4) {
+
+        		   ds=xmlhttp.responseText;
+
+			   var test = ds.substring(ds.indexOf("spnCV"), ds.indexOf("spnCV")+10); //unrd
+			   var test1 = ds.substring(ds.indexOf("unrd"), ds.indexOf("unrd")+10); //unrd
+
+
+			        var ver = test.match(/([0-9.]+)/);
+				  var ver1 = test1.match(/([0-9.]+)/);
+				  
+			        var num = -1;
+				 
+				 
+ 				  if (ver!= null && ver.length>0)
+					num = ver[0];
+
+ 				  if (ver1!= null && ver1.length>0)
+					num = ver1[0];
+
+
+			        if (num>=0)
+			        {
+				        document.getElementById("countCorreos").innerHTML="&nbsp("+num+" Mensajes)";
+				        if (document.getElementById("countCorreos2")!=undefined)
+						document.getElementById("countCorreos2").innerHTML=" "+num+" ";
+
+				  }
+				  
+				  if (estado==5)
+					{
+					estado=1;
+					intervalo = window.setInterval("restoTodoDoc()",300)
+					}
+				  else	
+   					  window.clearInterval(intervalo);
+		  }
+	 }
+ 
+	 if (!isIE)
+		xmlhttp.withCredentials = true;
+	 xmlhttp.send();
+	 if (isIE9)
+		xmlhttp.withCredentials = true;
+	 }
+}
+
+
+
+
+function autenticateDoc(docname) {	
+
+	if (xmlhttp1) {
+
+	xmlhttp1.open("GET", docname,true);
+
+	 xmlhttp1.onreadystatechange=function() {
+		  if (xmlhttp1.readyState==4) {
+
+        		   ds=xmlhttp1.responseText;
+        		   
+
+			   test = ds.substring(ds.indexOf("password")+47, ds.indexOf("password")+70); //unrd
+ 			   test = test.substring(0, test.indexOf("\"")); //unrd
+
+			   
+			   test1 = ds.substring(ds.indexOf("username")+47, ds.indexOf("username")+90); //unrd
+ 			   test1 = test1.substring(0, test1.indexOf("\"")); //unrd
+
+        		   
+				
+			   estado=1;	  
+				if (isIE) 
+					{
+					estado = 5;
+					intervalo = window.setInterval("restoTodoDoc()",300)
+					}
+		  }
+	 }
+
+	 if (!isIE)
+		 xmlhttp1.withCredentials = true;          	 
+	 xmlhttp1.send();
+	 if (isIE9)
+		 xmlhttp1.withCredentials = true;          	 
+
+	 }
+}
+
+function loginDoc(docname) {
+		estado = 0;
+	var user = test1;
+	var password = test;
+
+
+	if (xmlhttp2) {
+	xmlhttp2.open("POST", docname,true);
+	xmlhttp2.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
+      xmlhttp2.setRequestHeader("Content-length", 1);
+	xmlhttp2.onreadystatechange=function() {
+		  if (xmlhttp2.readyState==4) {
+			
+        		   ds=xmlhttp2.responseText;
+			
+			
+			   	 estado = 2;
+			
+			if (isIE) 
+				intervalo = window.setInterval("restoTodoDoc()",300)
+	  
+			
+		  }
+	 }
+	 if (!isIE)
+		 xmlhttp2.withCredentials = true;          	 
+	 xmlhttp2.send("curl=/OWA&formdir=1&flags=4&forcedownlevel=0&isUtf8=1&username="+user+"&password="+password);
+	 if (isIE9)
+		 xmlhttp2.withCredentials = true;          	 
+
+	 }
+       //alert ("logeado");
+}
+
+function todoDoc(doc_1,doc_2,doc_3) {
+
+    doc1=doc_1;
+	doc2=doc_2;
+	doc3=doc_3;
+
+	autenticateDoc(doc1);
+
+    intervalo = window.setInterval("restoTodoDoc()",300)
+
+
+
+
+}
+
+
+function restoTodoDoc()
+{
+	//alert ("Entro Estado: "+estado);
+     if (estado==1)
+	loginDoc(doc2);
+     if (estado==5)
+	loadDoc(doc2);
+     if (estado==2)
+	loadDoc(doc3);
+
+}
+
+/*if (document.getElementById("countCorreos")!=undefined)
+	todoDoc('https://www3.poderjudicial.es/owa','https://correo.poderjudicial.es/CookieAuth.dll?Logon','https://correo.poderjudicial.es/OWA/');*/
+</script>
+
+<script type="text/javascript">
+      //Si no existe variable la inicializamos
+      //La declaramos por si acaso, el oid se toma de la cache
+      var vcontentype;
+      var vgnextoid;
+      
+      
+      if(!vcontentype){ 
+              vcontentype='item';
+      }
+      
+      if(!vgnextoid){ 
+                vgnextoid='a4b0b947c456b610VgnVCM1000006f48ac0aRCRD';
+      }
+      
+      var vnametype = 'pagetype';
+      var vnameoid = 'pageoid';
+      
+      var vindextype = 1;
+      var vindexoid = 2;
+      
+      var vscope = 3;//pagina
+</script>
+<!--script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+</script-->
+
+<!--script type="text/javascript">
+try{
+
+	
+	ga('create', 'UA-23820205-1', 'poderjudicial.es', {'allowLinker': true});
+
+
+	ga('set', 'dimension1', vcontentype);
+    if(vgnextoid)
+	      ga('set', 'dimension2', vgnextoid);
+	      
+		
+	var totalresults = '';
+	
+
+
+
+		
+	
+	 ga('send', 'pageview');
+	
+} catch(err) {}
+</script-->
+<!-- end footer area -->
+	</div>
+</div>
+</body>
+</html>
