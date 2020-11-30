@@ -54,16 +54,15 @@ table {
     color:#000000;
     outline: none;
     text-align:center;
-
     transition: all 0.2s;
     background: transparent;
     width: 300px;
 }
 .seleccion:hover{
     color:#ffffff;
-    transition: all 0.2s;
+    transition: all 0.35s;
     outline: none;
-    border:0.1em solid rgba(49, 130, 187,1);
+    border:rgba(49, 130, 187,1);
     background-color:rgba(49, 130, 187,1);
 }
 
@@ -90,7 +89,6 @@ input[type=submit], input[type=reset] {
     font-weight:300;
     color:#000000;
     text-align:center;
-
     transition: all 0.2s;
     background: transparent;
     width: 300px;
@@ -98,8 +96,8 @@ input[type=submit], input[type=reset] {
 
 input[type=submit]:hover{
     color:#ffffff;
-    border:0.1em solid rgba(49, 130, 187,1);
-    transition: all 0.2s;
+    border:rgba(49, 130, 187,1);
+    transition: all 0.35s;
     outline: none;
     background-color: rgba(49, 130, 187,1);
 }
@@ -112,8 +110,8 @@ input[type=submit]:hover{
 
 input[type=reset]:hover{
     color:#ffffff;
-    transition: all 0.2s;
-    border:0.1em solid rgba(49, 130, 187,1);
+    transition: all 0.35s;
+    border:rgba(49, 130, 187,1);
     background-color: rgba(49, 130, 187,1);
 }
 @media all and (max-width:30em){
