@@ -90,52 +90,6 @@ p {
     text-align:center
 }
 
-input[type=submit], input[type=reset] {
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.02em solid #b6b6b6;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
-    outline: none;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Raleway',sans-serif;
-    font-weight:300;
-    color:#000000;
-    text-align:center;
-    transition: all 0.2s;
-    background: transparent;
-    width: 300px;
-}
-
-input[type=submit]:hover{
-    color:#ffffff;
-    border:rgba(49, 130, 187,1);
-    transition: all 0.35s;
-    outline: none;
-    background-color: rgba(49, 130, 187,1);
-}
-@media all and (max-width:30em){
-    input[type=submit]{
-        display:block;
-        margin:0.4em auto;
-    }
-}
-
-input[type=reset]:hover{
-    color:#ffffff;
-    transition: all 0.35s;
-    border:rgba(49, 130, 187,1);
-    background-color: rgba(49, 130, 187,1);
-}
-
-@media all and (max-width:30em){
-    input[type=reset]{
-        display:block;
-        margin:0.4em auto;
-    }
-}
-
 .clases {
   height: 33%;
   width: 100%;
