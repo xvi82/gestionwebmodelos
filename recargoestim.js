@@ -35,6 +35,15 @@ const fecharesolucionreclamacionprevia = words.get('fecharesolucionreclamacionpr
 const numero = words.get('numero');
 const ano = words.get('ano');
 
+var razonestim2;
+
+if (razonestim === "por la fuerza mayor operada al tiempo del accidente") {
+    razonestim2 = "sino que el hecho acaecido responde a un caso de fuerza mayor, esto es, un evento extraño al círculo o ámbito de la actividad del trabajador y de la empresa, que rompe el nexo de causalidad";
+} else {
+    razonestim2 = "sino que el hecho acaecido responde a un caso fortuito, esto es, un hecho independiente de la voluntad del deudor de seguridad (la empresa), imprevisible e inevitable";
+}
+
+
 // La frase contiene HTML y texto que se pondrá en la página del resultado
 const sentencia = `<p>Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magistrado del Juzgado de lo Social N&ordm; 10 de los de Las Palmas de Gran Canaria y su provincia, en audiencia p&uacute;blica, el juicio sobre Recargo de Prestaciones, seguido ante este Juzgado bajo n&ordm; 000000000<span class="word" title="id: numero">${numero}</span>/<span class="word" title="id: ano">${ano}</span>, promovido a instancia de <span class="word" title="id: actor">${actor}</span>, contra&nbsp;el Instituto Nacional de la Seguridad Social, la Tesorer&iacute;a General de la Seguridad Social y&nbsp;<span class="word" title="id: demandado">${demandado}</span>, atendiendo a los siguientes.</p>
 <h4 class="sent"><strong>ANTECEDENTES DE HECHO</strong></h4>
@@ -70,7 +79,7 @@ const sentencia = `<p>Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magi
 <p><strong>CUARTO.- </strong> Trayendo la realidad descrita en los Hechos Probados a la norma legal citada y la doctrina jur&iacute;dica expresada pueden apreciarse todos los elementos necesarios para la exclusi&oacute;n de la responsabilidad empresarial en la producci&oacute;n del evento, <span class="word" title="id: razonestim">${razonestim}</span>.</p>
 <p>La STS de 28-2-2019, recurso 508/2017, se&ntilde;ala que la culpa est&aacute; conectada con la diligencia que es exigible al deudor en cada supuesto. En esta materia es exigible la m&aacute;xima diligencia objetiva y t&eacute;cnicamente. Por ello, como se deriva del art. 5.&deg; de la Directiva 89/391, de la Comunidad Europea, s&oacute;lo impedir&aacute;n la existencia de culpa y el nacimiento de responsabilidad aquellos hechos extra&ntilde;os por completo al sujeto responsable, como son las situaciones de fuerza mayor, caso fortuito y situaci&oacute;n de necesidad. Sin embargo, el error o la imprevisi&oacute;n no liberar&aacute;n de culpa leve, porque el patrono debe conocer su industria y prever los diferentes riesgos.</p>
 <p>Por ende, el empresario no incurre en responsabilidad alguna cuando el resultado lesivo se hubiese producido por fuerza mayor o caso fortuito, pero en estos casos es a la empresa a quien le corresponde acreditar la concurrencia de esa posible causa de exoneraci&oacute;n, en tanto que es la titular de la deuda de seguridad y habida cuenta de los t&eacute;rminos cuasiobjetivos en que la misma est&aacute; concebida legalmente. Esto es, deber&aacute; probar que cumpli&oacute; todas las normas de seguridad y que adopt&oacute; cuantas medidas de prevenci&oacute;n eran necesarias, as&iacute; como que el siniestro se debi&oacute; a fuerza mayor o caso fortuito (STS 30 junio 2003, recurso 2403/2002).</p>
-<p>En el presente caso nos encontramos con que no se aprecia incumplimiento alguno de medidas de seguridad e higiene en el trabajo, tanto generales como espec&iacute;ficas, igualmente, no se observa en la producci&oacute;n del accidente un elemento de voluntariedad a t&iacute;tulo de dolo, culpa o al menos negligencia por parte de la empresa. A saber en la presente causa, </strong> <span class="word" title="id: caso">${caso}</span>.</p>
+<p>En el presente caso nos encontramos con que no se aprecia incumplimiento alguno de medidas de seguridad e higiene en el trabajo, tanto generales como espec&iacute;ficas, igualmente, no se observa en la producci&oacute;n del accidente un elemento de voluntariedad a t&iacute;tulo de dolo, culpa o al menos negligencia por parte de la empresa, ${razonestim2}. A saber en la presente causa, </strong> <span class="word" title="id: caso">${caso}</span>.</p>
 <p>Consecuentemente, procede la estimaci&oacute;n de la demanda.</p>
 <p>&nbsp;</p>
 <p><strong>QUINTO.- </strong>A tenor de lo dispuesto en el art. 97.4 de la LRJS se debe indicar a las partes procesales si la presente sentencia es firme o no, y en su caso los recursos que contra ella proceden, as&iacute; como las circunstancias de su interposici&oacute;n. En cumplimiento de ello se advierte a las partes que la presente resoluci&oacute;n no es firme y que contra ella puede interponerse recurso de suplicaci&oacute;n con todos los requisitos que en el fallo se se&ntilde;alan, seg&uacute;n se desprende del art. 191.3.g) de la LRJS.</p>
