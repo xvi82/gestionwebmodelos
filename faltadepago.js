@@ -31,19 +31,23 @@ const ano = words.get('ano');
 
 var antiguedad = new Date(words.get('antig'));
 var hoy = new Date();
-
-function diff_months(dt2, dt1){
-  var diff =(dt2.getTime() - dt1.getTime()) / 1000;
-   diff /= (60 * 60 * 24 * 7 * 4);
-  return Math.abs(Math.floor(diff));
- }
+var reforma = new Date('02/12/2012');
 
 function convert(dinero){
     return dinero.replace(",",".");}
 
-meses = diff_months(hoy, antiguedad);
+let indemnizacionextincion;
 
-indemnizacionextincion = (Math.round(((meses*convert(salario)*2.75) + Number.EPSILON) * 100) / 100).toString().replace(".", ",");
+if (antiguedad < reforma){
+    let meses1 = (Math.ceil((reforma - antiguedad)*0.00000000038));
+    let indemnizacionextincion1 = (Math.round(((meses1*convert(salario)*3.75) + Number.EPSILON) * 100) / 100);
+    let meses2 = (Math.round((hoy - reforma)*0.00000000038));
+    let indemnizacionextincion2 = (Math.round(((meses2*convert(salario)*2.75) + Number.EPSILON) * 100) / 100);
+    indemnizacionextincion = (indemnizacionextincion1 + indemnizacionextincion2).toString().replace(".", ",");
+} else {
+    let meses = (Math.round((hoy - antiguedad)*0.00000000038));
+    indemnizacionextincion = (Math.round(((meses*convert(salario)*2.75) + Number.EPSILON) * 100) / 100).toString().replace(".", ",");
+}
 
 // La frase contiene HTML y texto que se pondrá en la página del resultado
 const sentencia = `<p> Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magistrado del Juzgado de lo Social N&ordm; 10 de los de Las Palmas de Gran Canaria y su provincia, en audiencia p&uacute;blica, el juicio sobre Extinci&oacute;n del contrato por voluntad del trabajador, seguido ante este Juzgado bajo n&ordm; 000000000<span class="word" title="id: numero">${numero}</span>/<span class="word" title="id: ano">${ano}</span>, promovido a instancia de <span class="word" title="id: actor">${actor}</span>, contra <span class="word" title="id: demandado">${demandado}</span>, atendiendo a los siguientes.</p>
