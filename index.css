@@ -10,6 +10,17 @@ label {
     padding-top: 10px;
 }
 
+.formulario {
+    background: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:1.96592398%;
+    padding-left:1.96592398%;
+    border: 1px solid #ebebeb;
+    margin: 18px 0;
+
+}
+
 hr.estilo {
   border: 0;
   height: 1px;
@@ -58,7 +69,7 @@ table {
 .seleccion{
     display:inline-block;
     padding:0.2em 1.2em;
-    border:0.02em solid #b6b6b6;
+    border:0.09em solid #ebebeb;
     margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
     box-sizing: border-box;
