@@ -29,13 +29,16 @@ const canttotal = words.get('canttotal');
 const numero = words.get('numero');
 const ano = words.get('ano');
 
+function limpiar(dinero) {
+    return dinero.replace(".","");}
+
 function convert(dinero){
     return dinero.replace(",",".");}
 
 let recurso;
 let pierecurso;
 
-if (convert(canttotal) > 3000){
+if (convert(limpiar(canttotal)) > 3000){
     recurso= 'A tenor de lo dispuesto en el art. 97.4 de la LRJS se debe indicar a las partes procesales si la presente sentencia es firme o no, y en su caso los recursos que contra ella proceden, así como las circunstancias de su interposición. En cumplimiento de ello se advierte a las partes que la presente resolución no es firme y que contra ella puede interponerse recurso de suplicación con todos los requisitos que en el fallo se señalan, al superar la cuantía reclamada la cantidad de 3.000 euros según se desprende del art. 191.2.g) de la LRJS.';
     pierecurso= 'Contra la presente sentencia cabe interponer recurso de suplicación ante la Sala de lo Social del Tribunal Superior de Justicia, que deberá prepararse ante este mismo Juzgado mediante escrito o comparecencia de acuerdo con lo dispuesto en el Texto Refundido de la Ley Reguladora de la Jurisdicción Social, dentro de los cinco días siguientes al en que se produzca su notificación; debiendo la empresa condenada si fuere ésta la que recurriere, presentar resguardo acreditativo de haber ingresado tanto el importe de la condena como el depósito de 300 euros previsto en el artículo 229 de la Ley Reguladora de la Jurisdicción Social en la Cuenta de Depósitos y Consignaciones de este Juzgado.';
 } else {
