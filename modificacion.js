@@ -25,29 +25,24 @@ const caso = words.get('caso');
 const hechos = words.get('hechos');
 
 const prueba = words.get('prueba');
-
 const numero = words.get('numero');
 const ano = words.get('ano');
 
 var antiguedad = new Date(words.get('antig'));
 var hoy = new Date();
-var reforma = new Date('02/12/2012');
+
+function diff_months(dt2, dt1){
+  var diff =(dt2.getTime() - dt1.getTime()) / 1000;
+   diff /= (60 * 60 * 24 * 7 * 4);
+  return Math.abs(Math.floor(diff));
+ }
 
 function convert(dinero){
     return dinero.replace(",",".");}
 
-let indemnizacionextincion;
+meses = diff_months(hoy, antiguedad);
 
-if (antiguedad < reforma){
-    let meses1 = (Math.ceil((reforma - antiguedad)*0.00000000038));
-    let indemnizacionextincion1 = (Math.round(((meses1*convert(salario)*3.75) + Number.EPSILON) * 100) / 100);
-    let meses2 = (Math.round((hoy - reforma)*0.00000000038));
-    let indemnizacionextincion2 = (Math.round(((meses2*convert(salario)*2.75) + Number.EPSILON) * 100) / 100);
-    indemnizacionextincion = (indemnizacionextincion1 + indemnizacionextincion2).toString().replace(".", ",");
-} else {
-    let meses = (Math.round((hoy - antiguedad)*0.00000000038));
-    indemnizacionextincion = (Math.round(((meses*convert(salario)*2.75) + Number.EPSILON) * 100) / 100).toString().replace(".", ",");
-}
+indemnizacionextincion = (Math.round(((meses*convert(salario)*2.75) + Number.EPSILON) * 100) / 100).toString().replace(".", ",");
 
 // La frase contiene HTML y texto que se pondrá en la página del resultado
 const sentencia = `<p>Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magistrado del Juzgado de lo Social N&ordm; 10 de los de Las Palmas de Gran Canaria y su provincia, en audiencia p&uacute;blica, el juicio sobre Extinci&oacute;n del contrato por voluntad del trabajador, seguido ante este Juzgado bajo n&ordm; 000000000<span class="word" title="id: numero">${numero}</span>/<span class="word" title="id: ano">${ano}</span>, promovido a instancia de <span class="word" title="id: actor">${actor}</span>, contra <span class="word" title="id: demandado">${demandado}</span>, atendiendo a los siguientes.</p>
@@ -58,7 +53,7 @@ const sentencia = `<p>Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magi
 <p><strong>TERCERO.- </strong>En la sustanciaci&oacute;n de estos autos se han observado todas las prescripciones legales aplicables salvo el sistema de plazos.</p>
 <h4 class="sent">HECHOS PROBADOS</h4>
 <p></p>
-<p><strong>PRIMERO.-</strong> <span class="word" title="id: demandado">${demandado}</span> ha venido prestando servicios laborales para la empresa <span class=""word" title="id: demandado">${demandado}</span> dedicada a la actividad de <span class="word" title="id: actividad">${actividad}</span>, con antig&uuml;edad desde el d&iacute;a <span class="word" title="id: antig">${antig}</span>, categor&iacute;a profesional de <span class="word" title="id: categoria">${categoria}</span> y un salario mensual/diario bruto de <span class="word" title="id: salario">${salario}</span> euros, incluidas las partes proporcionales de las pagas extraordinarias, en virtud de un contrato de trabajo de duraci&oacute;n indefinida a tiempo completo.</p>
+<p><strong>PRIMERO.-</strong> <span class="word" title="id: actor">${actor}</span> ha venido prestando servicios laborales para la empresa <span class=""word" title="id: demandado">${demandado}</span> dedicada a la actividad de <span class="word" title="id: actividad">${actividad}</span>, con antig&uuml;edad desde el d&iacute;a <span class="word" title="id: antig">${antig}</span>, categor&iacute;a profesional de <span class="word" title="id: categoria">${categoria}</span> y un salario mensual/diario bruto de <span class="word" title="id: salario">${salario}</span> euros, incluidas las partes proporcionales de las pagas extraordinarias, en virtud de un contrato de trabajo de duraci&oacute;n indefinida a tiempo completo.</p>
 <p><strong>SEGUNDO.-</strong> La parte demandante no ostenta ni ha ostentado en el a&ntilde;o anterior al despido la condici&oacute;n de representante legal o sindical de las personas trabajadoras.</p>
 <p><strong>TERCERO.-</strong> La empresa procedió a:</p>
 <p><em><span class="word" title="id: hechos">${hechos}</span></em></p>
@@ -77,7 +72,7 @@ const sentencia = `<p>Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magi
 <p>La Jurisprudencia ha establecido que la causa que autoriza la extinci&oacute;n contractual del art. 50 del ET requiere que la modificaci&oacute;n de las condiciones de trabajo sea grave, es decir que afecte a lo esencial del contrato y que en t&eacute;rminos generales frustre las aspiraciones o expectativas leg&iacute;timas del trabajador, y ha de ser tambi&eacute;n voluntaria, es decir, reveladora de una conducta pertinaz y definitiva de incumplimiento de las obligaciones contractuales.</p>
 <p></p>
 <p><strong>CUARTO.-</strong> En el caso presente, <span class="word" title="id: caso">${caso}<span>.</p>
-<p>Trayendo la realidad descrita en los Hechos Probados a la norma legal citada y la doctrina jur&iacute;dica expresada no cabe duda de que existe causa legal para resolver el contrato de trabajo por incumplimiento de la empresa.</p>
+<p>Trayendo la realidad descrita en los Hechos Probados a la norma legal citada y la doctrina jurídica expresada no cabe duda de que existe causa legal para resolver el contrato de trabajo por incumplimiento de la empresa.</p>
 <p></p>
 <p><strong>QUINTO.- </strong>La declaraci&oacute;n de extinci&oacute;n de la relaci&oacute;n laboral obliga a calcular la indemnizaci&oacute;n extintiva de acuerdo con el art. 110.1 de la LRJS y con el art. 56.1 del ET ascendiendo a <em>&ldquo;treinta y tres d&iacute;as de salario por a&ntilde;o de servicio, prorrate&aacute;ndose por meses los periodos de tiempo inferiores a un a&ntilde;o, hasta un m&aacute;ximo de veinticuatro mensualidades&rdquo;.</em> Ello significa que por cada mes de prestaci&oacute;n de servicios laborales se devengan 2,75 d&iacute;as indemnizatorios (33 d&iacute;as de salario anuales divididos por los 12 meses del a&ntilde;o), con el tope de 720 d&iacute;as.</p>
 <p>El c&aacute;lculo de esta indemnizaci&oacute;n debe hacerse sobre la base del periodo en que la parte actora ha prestado servicios laborales para el empleador, tomando como fecha inicial el d&iacute;a <span class="word" title="id: antig">${antig}</span> correspondiente a la antig&uuml;edad reconocida en esta resoluci&oacute;n y como fecha final el d&iacute;a de extinci&oacute;n de la relaci&oacute;n laboral, a la fecha de la presente Sentencia. El prorrateo de los d&iacute;as que exceden de un mes completo se computa como si la prestaci&oacute;n de servicios se hubiera efectuado durante toda la mensualidad: se considera como un mes completo (STS de 20 de julio de 2009, recurso 2398/2008; 20 de junio de 2012, recurso 2931/2011; y 6 de mayo de 2014, recurso 562/2013).</p>

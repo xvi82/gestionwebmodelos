@@ -31,23 +31,19 @@ const ano = words.get('ano');
 
 var antiguedad = new Date(words.get('antig'));
 var hoy = new Date();
-var reforma = new Date('02/12/2012');
+
+function diff_months(dt2, dt1){
+  var diff =(dt2.getTime() - dt1.getTime()) / 1000;
+   diff /= (60 * 60 * 24 * 7 * 4);
+  return Math.abs(Math.floor(diff));
+ }
 
 function convert(dinero){
     return dinero.replace(",",".");}
 
-let indemnizacionextincion;
+meses = diff_months(hoy, antiguedad);
 
-if (antiguedad < reforma){
-    let meses1 = (Math.ceil((reforma - antiguedad)*0.00000000038));
-    let indemnizacionextincion1 = (Math.round(((meses1*convert(salario)*3.75) + Number.EPSILON) * 100) / 100);
-    let meses2 = (Math.round((hoy - reforma)*0.00000000038));
-    let indemnizacionextincion2 = (Math.round(((meses2*convert(salario)*2.75) + Number.EPSILON) * 100) / 100);
-    indemnizacionextincion = (indemnizacionextincion1 + indemnizacionextincion2).toString().replace(".", ",");
-} else {
-    let meses = (Math.round((hoy - antiguedad)*0.00000000038));
-    indemnizacionextincion = (Math.round(((meses*convert(salario)*2.75) + Number.EPSILON) * 100) / 100).toString().replace(".", ",");
-}
+indemnizacionextincion = (Math.round(((meses*convert(salario)*2.75) + Number.EPSILON) * 100) / 100).toString().replace(".", ",");
 
 // La frase contiene HTML y texto que se pondrá en la página del resultado
 const sentencia = `<p>Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magistrado del Juzgado de lo Social N&ordm; 10 de los de Las Palmas de Gran Canaria y su provincia, en audiencia p&uacute;blica, el juicio sobre Extinci&oacute;n del contrato por voluntad del trabajador, seguido ante este Juzgado bajo n&ordm; 000000000<span class="word" title="id: numero">${numero}</span>/<span class="word" title="id: ano">${ano}</span>, promovido a instancia de <span class="word" title="id: actor">${actor}</span>, contra <span class="word" title="id: demandado">${demandado}</span>, atendiendo a los siguientes.</p>
@@ -58,7 +54,7 @@ const sentencia = `<p>Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magi
 <p><strong>TERCERO.- </strong>En la sustanciaci&oacute;n de estos autos se han observado todas las prescripciones legales aplicables salvo el sistema de plazos.</p>
 <h4 class="sent">HECHOS PROBADOS</h4>
 
-<p><strong>PRIMERO.-</strong> <span class="word" title="id: demandado">${demandado}</span> ha venido prestando servicios laborales para la empresa <span class=""word" title="id: demandado">${demandado}</span> dedicada a la actividad de <span class="word" title="id: actividad">${actividad}</span>, con antig&uuml;edad desde el d&iacute;a <span class="word" title="id: antig">${antig}</span>, categor&iacute;a profesional de <span class="word" title="id: categoria">${categoria}</span> y un salario mensual/diario bruto de <span class="word" title="id: salario">${salario}</span> euros, incluidas las partes proporcionales de las pagas extraordinarias, en virtud de un contrato de trabajo de duraci&oacute;n indefinida a tiempo completo.</p>
+<p><strong>PRIMERO.-</strong> <span class="word" title="id: actor">${actor}</span> ha venido prestando servicios laborales para la empresa <span class=""word" title="id: demandado">${demandado}</span> dedicada a la actividad de <span class="word" title="id: actividad">${actividad}</span>, con antig&uuml;edad desde el d&iacute;a <span class="word" title="id: antig">${antig}</span>, categor&iacute;a profesional de <span class="word" title="id: categoria">${categoria}</span> y un salario mensual/diario bruto de <span class="word" title="id: salario">${salario}</span> euros, incluidas las partes proporcionales de las pagas extraordinarias, en virtud de un contrato de trabajo de duraci&oacute;n indefinida a tiempo completo.</p>
 <p><strong>SEGUNDO.-</strong> La parte demandante no ostenta ni ha ostentado en el a&ntilde;o anterior al despido la condici&oacute;n de representante legal o sindical de las personas trabajadoras.</p>
 <p><strong>TERCERO.-</strong> La empresa ha abonado las mensualidades con los siguientes retrasos:</p>
 <p><em><span class="word" title="id: hechos">${hechos}</span></em></p>
