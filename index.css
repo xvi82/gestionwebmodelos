@@ -86,7 +86,24 @@ table {
   outline: none;
 }
 
-.clases {
+.atras {
+  height: 33%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.clases1 {
+  height: 33%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clases2 {
   height: 33%;
   width: 100%;
   display: flex;
