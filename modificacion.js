@@ -25,7 +25,7 @@ const caso = words.get('caso');
 const hechos = words.get('hechos');
 
 const prueba = words.get('prueba');
-const nocobra = words.get('nocobra');
+
 const numero = words.get('numero');
 const ano = words.get('ano');
 
@@ -77,7 +77,7 @@ const sentencia = `<p>Visto por m&iacute;, D. Javier Ercilla Garc&iacute;a, Magi
 <p>La Jurisprudencia ha establecido que la causa que autoriza la extinci&oacute;n contractual del art. 50 del ET requiere que la modificaci&oacute;n de las condiciones de trabajo sea grave, es decir que afecte a lo esencial del contrato y que en t&eacute;rminos generales frustre las aspiraciones o expectativas leg&iacute;timas del trabajador, y ha de ser tambi&eacute;n voluntaria, es decir, reveladora de una conducta pertinaz y definitiva de incumplimiento de las obligaciones contractuales.</p>
 <p></p>
 <p><strong>CUARTO.-</strong> En el caso presente, <span class="word" title="id: caso">${caso}<span>.</p>
-<p>Trayendo la realidad descrita en los Hechos Probados a la norma legal citada y la doctrina jur&iacute;dica expresada no cabe duda de que existe causa legal para resolver el contrato de trabajo por incumplimiento de la empresa, dado que la actora no cobra desde <span class="word" title="id: nocobra">${nocobra}</span>.</p>
+<p>Trayendo la realidad descrita en los Hechos Probados a la norma legal citada y la doctrina jur&iacute;dica expresada no cabe duda de que existe causa legal para resolver el contrato de trabajo por incumplimiento de la empresa.</p>
 <p></p>
 <p><strong>QUINTO.- </strong>La declaraci&oacute;n de extinci&oacute;n de la relaci&oacute;n laboral obliga a calcular la indemnizaci&oacute;n extintiva de acuerdo con el art. 110.1 de la LRJS y con el art. 56.1 del ET ascendiendo a <em>&ldquo;treinta y tres d&iacute;as de salario por a&ntilde;o de servicio, prorrate&aacute;ndose por meses los periodos de tiempo inferiores a un a&ntilde;o, hasta un m&aacute;ximo de veinticuatro mensualidades&rdquo;.</em> Ello significa que por cada mes de prestaci&oacute;n de servicios laborales se devengan 2,75 d&iacute;as indemnizatorios (33 d&iacute;as de salario anuales divididos por los 12 meses del a&ntilde;o), con el tope de 720 d&iacute;as.</p>
 <p>El c&aacute;lculo de esta indemnizaci&oacute;n debe hacerse sobre la base del periodo en que la parte actora ha prestado servicios laborales para el empleador, tomando como fecha inicial el d&iacute;a <span class="word" title="id: antig">${antig}</span> correspondiente a la antig&uuml;edad reconocida en esta resoluci&oacute;n y como fecha final el d&iacute;a de extinci&oacute;n de la relaci&oacute;n laboral, a la fecha de la presente Sentencia. El prorrateo de los d&iacute;as que exceden de un mes completo se computa como si la prestaci&oacute;n de servicios se hubiera efectuado durante toda la mensualidad: se considera como un mes completo (STS de 20 de julio de 2009, recurso 2398/2008; 20 de junio de 2012, recurso 2931/2011; y 6 de mayo de 2014, recurso 562/2013).</p>
