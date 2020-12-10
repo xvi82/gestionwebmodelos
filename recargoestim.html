@@ -1763,7 +1763,10 @@
 
 <section class="resol">
       <h3 class="sent">SENTENCIA</h3>
-      <p>En Las Palmas de Gran Canaria, a fecha <script> document.write(new Date().toLocaleDateString()); </script>.</p>
+      <p>En Las Palmas de Gran Canaria, a fecha <script>const monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+const d = new Date();
+document.write(d.getDate() + " de " + monthNames[d.getMonth()] + " de " + d.getFullYear());
+</script>.</p>
       <article id="sentencia"></article>
     <p id="firma">Developed by:</p>
     <p id="firma">Javier Ercilla García</p>
